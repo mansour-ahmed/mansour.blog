@@ -1,0 +1,108 @@
+@import "~/assets/styles/colors.scss";
+@import "~/assets/styles/mixins.scss";
+
+html {
+  font-size: 62.5%;
+}
+
+// font-family: 'Lora', serif;
+// font-family: 'Open Sans', sans-serif;
+body {
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif; */
+  font-family: "Lora", serif;
+  color: $black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+p,
+li {
+  font-family: "Lora", serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  border-bottom: 1px solid $blue;
+  padding-bottom: 1px;
+  &:hover {
+    color: $dark-blue;
+    border-bottom: 1px solid $dark-blue;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+  // margin-bottom: 1.5rem;
+  @include breakpoint("md") {
+    font-size: 2.5rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.8rem;
+  // margin-bottom: 1rem;
+  @include breakpoint("md") {
+    font-size: 2rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  @include breakpoint("md") {
+    font-size: 1.8rem;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+  // margin-bottom: 1rem;
+  @include breakpoint("md") {
+    font-size: 1.5rem;
+  }
+}
+
+p,
+li {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  @include breakpoint("md") {
+    font-size: 1.25rem;
+  }
+}
+
+.anchor-without-border {
+  border: none;
+  &:hover {
+    border: none;
+  }
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.light {
+  font-weight: 500;
+}
