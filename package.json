@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gridsome build",
     "serve": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "now-build": "gridsome build"
   },
   "dependencies": {
     "date-fns": "^1.30.1",
