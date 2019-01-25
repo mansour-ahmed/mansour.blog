@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="elv-1">
     <v-layout row align-center fill-height px-5 py-3>
       <v-flex xs6 md3>
         <Logo/>
@@ -9,7 +9,6 @@
         <MobileNav class="hidden-md-and-up"/>
       </v-flex>
     </v-layout>
-    <v-divider></v-divider>
   </header>
 </template>
 
@@ -26,6 +25,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/styles/common.scss";
 @import "~/assets/styles/colors.scss";
 
 .content {

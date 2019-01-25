@@ -1,17 +1,19 @@
 <template>
-  <v-app style="background-color: #ffffff;">
-    <Header/>
-    <v-content>
-      <div class="layout content-center">
-        <v-container>
-          <v-layout column>
-            <slot/>
-          </v-layout>
-        </v-container>
-      </div>
-    </v-content>
-    <Footer/>
-  </v-app>
+  <div>
+    <v-app style="background-color: #ffffff;">
+      <Header/>
+      <v-content>
+        <div class="layout content-center">
+          <v-container>
+            <v-layout column>
+              <slot/>
+            </v-layout>
+          </v-container>
+        </div>
+      </v-content>
+      <Footer/>
+    </v-app>
+  </div>
 </template>
 
 <static-query>
