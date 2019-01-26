@@ -1,13 +1,13 @@
 <template >
   <Layout>
     <NewsletterPopup v-bind:dialog="dialogVisible" delay="15000"/>
-    <g-image class="py-4" v-if="$page.post.image" :src="$page.post.image"/>
-    <h1 v-if="$page.post">{{ $page.post.title }}</h1>
-    <div v-if="$page.post" class="body2 pb-5">Written by:
+    <g-image class="py-4" v-show="$page.post.image" :src="$page.post.image"/>
+    <h1 v-show="$page.post">{{ $page.post.title }}</h1>
+    <div v-show="$page.post" class="body2 pb-5">Written by:
       <g-link to="/about">{{ $page.post.author }}</g-link>
       - {{ $page.post.date }}
     </div>
-    <div v-if="$page.post" v-html="$page.post.content"></div>
+    <div v-show="$page.post" v-html="$page.post.content"></div>
   </Layout>
 </template>
 
