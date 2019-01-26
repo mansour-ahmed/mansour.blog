@@ -1,15 +1,17 @@
 <template>
-  <header class="elv-1">
-    <v-layout row align-center fill-height px-5 py-3>
-      <v-flex xs6 md3>
-        <Logo/>
-      </v-flex>
-      <v-flex xs6>
-        <Nav class="hidden-sm-and-down"/>
-        <MobileNav class="hidden-md-and-up"/>
-      </v-flex>
-    </v-layout>
-  </header>
+  <div>
+    <header class="elv-1">
+      <v-layout row align-center fill-height px-5 py-3>
+        <v-flex xs6 md3>
+          <Logo/>
+        </v-flex>
+        <v-flex xs6>
+          <Nav class="hidden-sm-and-down"/>
+          <MobileNav class="hidden-md-and-up"/>
+        </v-flex>
+      </v-layout>
+    </header>
+  </div>
 </template>
 
 <script>
