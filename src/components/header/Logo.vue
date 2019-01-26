@@ -1,7 +1,9 @@
 <template>
+  <div>
     <g-link class="nav-link" to="/">
       <v-img alt="Logo image" :src="imgUrl" width="150"/>
     </g-link>
+  </div>
 </template>
 
 <script>

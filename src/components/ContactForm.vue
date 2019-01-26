@@ -1,55 +1,63 @@
 <template>
-  <v-card class="contact-form-container pa-2" max-width="500" elevation="2">
-    <v-container>
-      <h1 class="text-xs-center">Say Hello 👋</h1>
-      <p>I appreciate that you would like to get in touch with me.</p>
-      <p>Some of the things I can help you with...</p>
-      <ul>
-        <li>Conference Speaking 🎤</li>
-        <li>Workshops/Trainings 👨‍🏫</li>
-        <li>Project Work 🏋️</li>
-      </ul>
-      <v-form v-model="valid">
-        <v-layout column>
-          <v-flex xs12>
-            <v-text-field name="name" v-model="name" :rules="nameRules" label="Your name" required></v-text-field>
-          </v-flex>
+  <div>
+    <v-card class="contact-form-container pa-2" max-width="500" elevation="2">
+      <v-container>
+        <h1 class="text-xs-center">Say Hello 👋</h1>
+        <p>I appreciate that you would like to get in touch with me.</p>
+        <p>Some of the things I can help you with...</p>
+        <ul>
+          <li>Conference Speaking 🎤</li>
+          <li>Workshops/Trainings 👨‍🏫</li>
+          <li>Project Work 🏋️</li>
+        </ul>
+        <v-form v-model="valid">
+          <v-layout column>
+            <v-flex xs12>
+              <v-text-field
+                name="name"
+                v-model="name"
+                :rules="nameRules"
+                label="Your name"
+                required
+              ></v-text-field>
+            </v-flex>
 
-          <v-flex xs12>
-            <v-text-field
-              name="email"
-              v-model="email"
-              :rules="emailRules"
-              label="Your e-mail"
-              required
-            ></v-text-field>
-          </v-flex>
+            <v-flex xs12>
+              <v-text-field
+                name="email"
+                v-model="email"
+                :rules="emailRules"
+                label="Your e-mail"
+                required
+              ></v-text-field>
+            </v-flex>
 
-          <v-flex xs12>
-            <v-select
-              :items="items"
-              v-model="purpose"
-              name="purpose"
-              label="How can I help you?"
-              required
-            ></v-select>
-          </v-flex>
+            <v-flex xs12>
+              <v-select
+                :items="items"
+                v-model="purpose"
+                name="purpose"
+                label="How can I help you?"
+                required
+              ></v-select>
+            </v-flex>
 
-          <v-flex xs12>
-            <v-textarea name="description" label="Tell me more!" v-model="description" required></v-textarea>
-          </v-flex>
-          <v-flex xs12></v-flex>
-        </v-layout>
-        <v-btn
-          depressed
-          color="primary"
-          :disabled="!valid || !description || !purpose"
-          @click="submit"
-        >Send to Ahmed</v-btn>
-      </v-form>
-      <v-hint v-if="responseMsg">{{ responseMsg }}</v-hint>
-    </v-container>
-  </v-card>
+            <v-flex xs12>
+              <v-textarea name="description" label="Tell me more!" v-model="description" required></v-textarea>
+            </v-flex>
+            <v-flex xs12></v-flex>
+          </v-layout>
+          <v-btn
+            depressed
+            color="primary"
+            :disabled="!valid || !description || !purpose"
+            @click="submit"
+          >Send to Ahmed</v-btn>
+        </v-form>
+        <v-hint v-show="responseMsg">{{ responseMsg }}</v-hint>
+      </v-container>
+    </v-card>
+  </div>
 </template>
 
 <script>
