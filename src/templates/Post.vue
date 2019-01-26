@@ -1,7 +1,6 @@
 <template >
   <Layout>
     <NewsletterPopup v-bind:dialog="dialogVisible" delay="15000"/>
-    <g-image class="py-4" v-show="$page.post.image" :src="$page.post.image"/>
     <h1 v-show="$page.post">{{ $page.post.title }}</h1>
     <div v-show="$page.post" class="body2 pb-5">Written by:
       <g-link to="/about">{{ $page.post.author }}</g-link>
