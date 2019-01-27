@@ -5,19 +5,19 @@ keywords: entrepreneur, finnish, egyptian, software, engineer, trainer, web, dev
 description: Ahmed Mansour is a software engineer, entrepreneur and trainer. Creater of Podcast Script.
 ---
 
-Hello, I'm Ahmed Mansour 👋
+### Hello, I'm Ahmed Mansour 👋
 
 I'm a Finnish-Egyptian **software engineer**, **entrepreneur**, and **trainer**.
 
-This website is the home of my [blog](/articles) and [courses](/courses).
+This website is the home of my [blog](/articles).
 
 In my articles I write mainly about how to build web applications that are more user friendly, accessible and performant. I also write non technical articles about recent books I read, productivity tips and new tools.
 
 As an engineer, I have a strong background in IT services consulting working with variety of clients from different industries such as eCommerce, paper, energy, and retail sectors. My main focus is web software and typically in my projects I act as a frontend lead.
 
-As an entrepreneur, I am working on creating products that solve problems that I personally encounter and I think worth solving. So far I started working on my first product - [podcast script](https://www.podcastscript.com).
+As an entrepreneur, I am working on creating products that solve problems that I personally encounter and I think worth solving. My main projects are [transcriptify](https://www.transcriptify.com) and [nordschool](https://www.nordschool.com)
 
-As a trainer, I teach the newest web technologies that are used to build scalable fast applications. Find out more [here](/courses).
+As a trainer, I teach the newest web technologies that are used to build scalable fast applications. Find out more [here](https://www.nordschool.com).
 
 As a human, I have two main hobbies - Brazilian Jujutsu & salsa. Beside that I tend to read a lot of non-fiction books and learn languages.
 
