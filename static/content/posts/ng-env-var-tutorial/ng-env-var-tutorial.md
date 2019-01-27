@@ -4,7 +4,7 @@ title: How To Add Custom Run-time Environment Variables To An Angular App
 date: 2018-01-05
 author: Ahmed Mansour
 keywords: Angular, Docker, Angular-cli, JavaScript, Optimizing, Runtime, build once run everywhere, Ahmed Mansour, Angular5, ng, Finland, Web Developer
-description: A tutorial on how to add custom config files with environment dependent variables to an angular  app built with angular-cli on run time instead of build time.
+description: A tutorial on how to add custom config files with environment dependent variables to an angular app built with angular-cli on run time instead of build time.
 ---
 
 **A tutorial on how to add custom config files with environment dependent variables to an angular app built with angular-cli on run time instead of build time**
@@ -32,7 +32,7 @@ The solution in a nutshell
 
 When you are done your directory should have similar structure.
 
-```txt
+```plaintext
 your-ng-app
 └───.vscode
 └───configs
