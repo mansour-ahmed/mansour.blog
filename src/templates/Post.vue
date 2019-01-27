@@ -54,8 +54,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/styles/common.scss";
+
+/deep/ .g-image {
+  max-width: 100%;
+}
+
 /deep/ .hljs {
   padding: 1rem;
   margin: 1rem 0;
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
 }
 </style>
