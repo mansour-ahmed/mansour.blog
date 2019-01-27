@@ -120,6 +120,7 @@ npm-debug.log
 # Nuxt generate
 dist
 
+
 ### Vue ###
 # gitignore template for Vue.js projects
 #
@@ -134,3 +135,5 @@ test/
 ### Vuejs ###
 
 # End of https://www.gitignore.io/api/vue,node,vuejs,macos,nuxtjs
+
+src/.temp/*
