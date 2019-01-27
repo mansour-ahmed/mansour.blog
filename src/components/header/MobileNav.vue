@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       drawer: null,
-      navLinks: ["about", "articles", "contact", "courses", "newsletter"]
+      navLinks: ["about", "articles", "contact", "newsletter"]
     };
   },
   methods: {
