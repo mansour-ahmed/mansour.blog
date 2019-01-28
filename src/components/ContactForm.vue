@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="contact-form-container pa-2" max-width="500" elevation="2">
+    <v-card class="form-container pa-2 elv-1" max-width="500">
       <v-container>
         <h1 class="text-xs-center">Say Hello 👋</h1>
         <p>I appreciate that you would like to get in touch with me.</p>
@@ -54,7 +54,7 @@
             @click="submit"
           >Send to Ahmed</v-btn>
         </v-form>
-        <v-hint v-show="responseMsg">{{ responseMsg }}</v-hint>
+        <span v-show="responseMsg">{{ responseMsg }}</span>
       </v-container>
     </v-card>
   </div>
@@ -114,10 +114,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.contact-form-container {
-  width: 100%;
-  margin: 0 auto;
-}
+@import "~/assets/styles/common.scss";
 
 /deep/ .v-list__tile--link {
   border-bottom: none;

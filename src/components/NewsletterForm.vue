@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card class="newsletter-form-container pa-2" max-width="500" elevation="2">
+    <v-card class="form-container pa-2 elv-1" max-width="500">
       <v-container>
         <div class="text-xs-center">
           <h1>Hello there 👋</h1>
@@ -82,11 +82,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/styles/colors.scss";
+@import "~/assets/styles/common.scss";
 
-.contact-form-container {
-  width: 100%;
-  margin: 0 auto;
-}
 h5 {
   color: lighten($black, 30%);
 }
