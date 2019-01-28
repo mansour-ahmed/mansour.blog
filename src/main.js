@@ -1,13 +1,14 @@
 import Vuetify from "vuetify";
 import DefaultLayout from "~/layouts/Default.vue";
 import axios from "axios";
+import VueAnalytics from "vue-analytics";
 import VueAxios from "vue-axios";
 
 import "normalize.css/normalize.css";
 import "highlight.js/styles/github.css";
 import "~/assets/styles/main.styl";
 
-export default function(Vue, { router, head, isClient }) {
+export default function(Vue, { router, head, isClient, isServer }) {
   head.meta.push({
     name: "viewport",
     content:
@@ -57,6 +58,16 @@ export default function(Vue, { router, head, isClient }) {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Material+Icons"
   });
+
+  // Analytics
+  const baseOptions = {
+    disabled: isServer,
+    debug: {
+      sendHitTask: process.env.NODE_ENV === "production"
+    },
+    router
+  };
+  Vue.use(VueAnalytics, { ...baseOptions, ...options });
 
   // Global imports
 

@@ -35,6 +35,12 @@ module.exports = {
         path: "static/content/pages/*.md",
         typeName: "Pages"
       }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-74640828-2"
+      }
     }
   ]
 };
