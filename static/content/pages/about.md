@@ -13,7 +13,7 @@ This website is the home of my [blog](/articles).
 
 In my articles I write mainly about how to build web applications that are more user friendly, accessible and performant. I also write non technical articles about recent books I read, productivity tips and new tools.
 
-As an engineer, I have a strong background in IT services consulting working with variety of clients from different industries such as eCommerce, paper, energy, and retail sectors. My main focus is web software and typically in my projects I act as a frontend lead engineer.
+As an engineer, I have a strong background in IT services consulting working with variety of clients from different industries such as eCommerce, paper, energy, and retail sector. My main focus is web software and typically in my projects I act as a frontend lead engineer.
 
 As an entrepreneur, I am working on creating products that solve problems that I personally encounter and think worth solving. My main projects are [transcriptify](https://www.transcriptify.com) and [nordschool](https://www.nordschool.com)
 

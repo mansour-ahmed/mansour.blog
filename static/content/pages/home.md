@@ -3,17 +3,18 @@ title: Home
 keywords: entrepreneur, finnish, egyptian, software, engineer, trainer, web, development, accessibility, performance, UX, speaker, consultant, Javascript
 description: Ahmed Mansour is a software engineer, entrepreneur and trainer.
 ---
+# Hello, I am Ahmed 🤝
 
-first paragraph about me.
+I am a software engineer, professional trainer and entrepreneur.
 
-second paragraph about me.
+I write regularly about a variety of topics, check out my [articles](/articles).
 
-Would you like to hear more? [Read my story](/about)
+Would you like to know more? [Read my story](/about).
 
-## Hear from me
+<!-- ## Hear from me
 
-I am maintaining a weekly short [newsletter](/newsletter).
+I am maintaining a re-occurring short [newsletter](/newsletter).
 
 Paragraph about the news letter
 
-Ready to join me? [Join the newsletter over here](/newsletter).
+Ready to join me? [Join the newsletter over here](/newsletter). -->
