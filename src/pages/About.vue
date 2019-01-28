@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div v-html="$page.pageData.content"></div>
+    <div class="about-container" v-html="$page.pageData.content"></div>
   </Layout>
 </template>
 
@@ -69,3 +69,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.about-container {
+  /deep/ img {
+    width: 20rem;
+  }
+}
+</style>
