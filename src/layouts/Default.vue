@@ -54,7 +54,7 @@ export default {
 }
 
 .content-center {
-  max-width: 70rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -64,28 +64,4 @@ hr {
   margin: 16px 0;
 }
 
-blockquote {
-  $quote-spacing: 1rem;
-  $icons-color: lighten($black, 20%);
-
-  padding-left: $quote-spacing;
-  border-left: 0.2rem solid $icons-color;
-  p {
-    font-size: 18px;
-    &:before,
-    &:after {
-      color: $icons-color;
-      font-size: 1.5rem;
-      padding: 0;
-    }
-    &:before {
-      content: "\201C";
-      padding-right: $quote-spacing / 2;
-    }
-    &:after {
-      padding-left: $quote-spacing / 2;
-      content: "\201D";
-    }
-  }
-}
 </style>
