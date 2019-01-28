@@ -11,7 +11,6 @@ module.exports = {
   siteDescription:
     "Ahmed Mansour's website. Ahmed is a software engineer, professional trainer and entrepreneur living in Helsinki Finland",
   titleTemplate: "%s - Ahmed Mansour",
-  // icon: "src/assets/images/favicon.jpg",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
