@@ -59,16 +59,6 @@ export default function(Vue, { router, head, isClient, isServer }) {
     href: "https://fonts.googleapis.com/css?family=Material+Icons"
   });
 
-  // Analytics
-  const baseOptions = {
-    disabled: isServer,
-    debug: {
-      sendHitTask: process.env.NODE_ENV === "production"
-    },
-    router
-  };
-  Vue.use(VueAnalytics, { ...baseOptions, ...options });
-
   // Global imports
 
   Vue.use(Vuetify, {
@@ -83,4 +73,15 @@ export default function(Vue, { router, head, isClient, isServer }) {
   Vue.use(VueAxios, axios);
 
   Vue.component("Layout", DefaultLayout);
+
+  // Analytics
+  const baseOptions = {
+    disabled: isServer,
+    debug: {
+      sendHitTask: process.env.NODE_ENV === "production"
+    },
+    router
+  };
+
+  Vue.use(VueAnalytics, { ...baseOptions, ...options });
 }
