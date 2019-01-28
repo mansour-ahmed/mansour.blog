@@ -36,7 +36,6 @@ export default {
     };
   },
   created() {
-    console.log(location);
     if (!this.$page.post) {
       this.$router.push("404");
     }
