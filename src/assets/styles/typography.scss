@@ -85,11 +85,16 @@ h4,
 
 p,
 li {
-  font-size: 1rem;
+  font-size: 1.125rem;
   padding-bottom: 1rem;
   @include breakpoint("md") {
     font-size: 1.25rem;
   }
+}
+
+ul,
+ol {
+  padding-bottom: 1rem;
 }
 
 .anchor-without-border {
