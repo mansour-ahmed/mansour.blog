@@ -1,5 +1,3 @@
-// This is the main.js file. Import global CSS and scripts here.
-// The Client API can be used here. Learn more: gridsome.org/docs/client-api
 import Vuetify from "vuetify";
 import DefaultLayout from "~/layouts/Default.vue";
 import axios from "axios";
@@ -7,10 +5,7 @@ import VueAxios from "vue-axios";
 
 import "normalize.css/normalize.css";
 import "highlight.js/styles/github.css";
-import '~/assets/styles/main.styl';
-
-// import "vuetify/dist/vuetify.min.css";
-// import "vue-material-design-icons/styles.css";
+import "~/assets/styles/main.styl";
 
 export default function(Vue, { router, head, isClient }) {
   head.meta.push({
@@ -22,21 +17,49 @@ export default function(Vue, { router, head, isClient }) {
     name: "robots",
     content: "index, follow"
   });
+
+  // Search Engine verifications
   head.meta.push({
-    name: "twitter:site",
-    content: "@ahmedmansour03"
+    name: "google-site-verification",
+    content: "x0ppGw5l7mwuAoqBbJrl3yvdyFcYe4JLLODPr0L-okU"
   });
+  head.meta.push({
+    name: "msvalidate.01",
+    content: "75C06C7BC01625D580C4997D97C7137F"
+  });
+
+  // Open Graph Meta Data
+  head.meta.push({
+    key: "og:type",
+    property: "og:type",
+    content: "website"
+  });
+  head.meta.push({
+    key: "og:locale",
+    property: "og:locale",
+    content: "en_US"
+  });
+
+  // Twitter Meta Data
+  head.meta.push({
+    key: "twitter:site",
+    name: "twitter:site",
+    content: "@AhmedMansour03"
+  });
+
+  // Styles
   head.link.push({
     rel: "stylesheet",
-    href:
-      "https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700"
+    href: "https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700"
   });
+
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Material+Icons"
   });
 
-  // Set default layout as a global component
+  // Global imports
+
   Vue.use(Vuetify, {
     theme: {
       primary: "#2179ff",
