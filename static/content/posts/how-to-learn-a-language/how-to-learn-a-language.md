@@ -56,7 +56,7 @@ Using flashcards also allows us to take advantage of our visual memory. Turns ou
 
 *An example of a card in Anki with its answer in the bottom and waiting for my feedback on how easy was it to remember the word in the very bottom:*
 
-![An example of a card in Anki with its answer in the bottom and waiting for my feedback on how easy was it to remember the word in the very bottom.](anki.png "An example of a card in Anki with its answer in the bottom and waiting for my feedback on how easy was it to remember the word in the very bottom.")
+<!-- ![An example of a card in Anki with its answer in the bottom and waiting for my feedback on how easy was it to remember the word in the very bottom.](anki.png "An example of a card in Anki with its answer in the bottom and waiting for my feedback on how easy was it to remember the word in the very bottom.") -->
 
 You can use flashcards to memorise pretty much anything, try it and you will be really impressed.
 

@@ -9,7 +9,7 @@ description: Ahmed Mansour is a software engineer, entrepreneur and trainer. Cre
 
 I'm a Finnish-Egyptian **software engineer**, **entrepreneur**, and **trainer**.
 
-![Ahmed Mansour proflile Picture.](profile1.jpg "Ahmed Mansour proflile Picture")
+![Ahmed Mansour proflile Picture.](profile1.png "Ahmed Mansour proflile Picture")
 
 This website is the home of my [blog](/articles).
 

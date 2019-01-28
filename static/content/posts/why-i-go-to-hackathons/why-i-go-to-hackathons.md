@@ -7,7 +7,7 @@ keywords: hackathons, opinion, Ahmed, Mansour, Developer, Helsinki, Finland, Inn
 description: For those who haven't  been in a hackathon yet, you should. You will have fun, learn new stuff, expand your network by meeting new interesting people.
 ---
 
-![A group photo from cargoHack.](hackathon1.jpeg "A group photo from cargoHack")
+![A group photo from cargoHack.](hackathon1.png "A group photo from cargoHack")
 
 For those who have not tried joining a hackathon before, you should consider it. You will have fun, learn a ton of new stuff (technical and non-technical), expand your network by meeting new interesting people, and get to know your coworkers better if you go together. For those who work in a field that has anything to do with IT, go ahead and poke your managers to let you form a team and join.
 
@@ -23,7 +23,7 @@ I had the chance to participate in quite a few hackathons last year and it was s
 
 In case you do not know what I am talking about and you are wondering.
 
-![Get excited and make things.](hackathon2.gif)
+![Get excited and make things.](hackathon2.png)
 
 According to Wikipedia it is
 
@@ -45,7 +45,7 @@ Hackathons always offer accessibility to different set of tools for contestants.
 
 It doesn’t matter much what is your background or what you do for living, there is always something interesting there to try out and perhaps utilize it to come up with a new use case for some of these tools.
 
-![Picture taken during CargoHack, where we had access to the latest REAL cargo handling machines, drones, sensors and more interesting gadgets.](hackathon3.jpeg "Cargohack")
+![Picture taken during CargoHack, where we had access to the latest REAL cargo handling machines, drones, sensors and more interesting gadgets.](hackathon3.png "Cargohack")
 
 **_Picture taken during CargoHack, where we had access to the latest REAL cargo handling machines, drones, sensors and more interesting gadgets._**
 
@@ -59,7 +59,7 @@ The main argument was about the importance of creative work with the rise of the
 
 Another argument was that coming up with a major innovative solution is far less likely compared to a creative solution. An average person is likely to come up with a new use case of the smartphone but innovating the first smartphone is way less common.
 
-![Bruce Oreck at Ultrahack 2016 and his presentation about creativity.](hackathon4.jpeg "Bruce Oreck at Ultrahack 2016")
+![Bruce Oreck at Ultrahack 2016 and his presentation about creativity.](hackathon4.png "Bruce Oreck at Ultrahack 2016")
 
 **_Bruce Oreck at Ultrahack 2016 and his presentation about creativity._**
 
@@ -113,7 +113,7 @@ The value and the motive for joining is of course not the prize but it’s alway
 
 I was participating in the Ultrahack MyData hackathon last year together with three other colleagues from Tieto. The hackathon was about the MyData initiative to help people gain more control over their personal data. Our idea in a nutshell was to create a marketplace to monetize personal data. It was quite competitive environment but guess what, our team won one of the prizes!
 
-![A picture of our prize as top 5 finalist with an aware of 1000€](hackathon6.jpeg "Our team — SELL YOUR (SOUL) DATA was the one of the top 5 finalist.")
+![A picture of our prize as top 5 finalist with an aware of 1000€](/static/content/posts/why-i-go-to-hackathons/hackathon6.png "Our team — SELL YOUR (SOUL) DATA was the one of the top 5 finalist.")
 
 **_Our team — SELL YOUR (SOUL) DATA was the one of the top 5 finalist._**
 

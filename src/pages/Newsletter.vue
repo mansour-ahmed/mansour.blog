@@ -31,7 +31,7 @@ export default {
         {
           key: "canonical",
           rel: "canonical",
-          href: location.href
+          href: process.browser ? location.href : undefined
         }
       ],
       meta: [
@@ -59,7 +59,7 @@ export default {
         {
           key: "og:url",
           property: "og:url",
-          content: location.href
+          content: process.browser ? location.href : undefined
         },
         {
           key: "twitter:text:title",
