@@ -10,11 +10,3 @@ I am a software engineer, professional trainer and entrepreneur.
 I write regularly about a variety of topics, check out my [articles](/articles).
 
 Would you like to know more? [Read my story](/about).
-
-<!-- ## Hear from me
-
-I am maintaining a re-occurring short [newsletter](/newsletter).
-
-Paragraph about the news letter
-
-Ready to join me? [Join the newsletter over here](/newsletter). -->
