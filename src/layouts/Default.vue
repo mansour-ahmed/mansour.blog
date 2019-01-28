@@ -47,21 +47,6 @@ export default {
 
 <style lang="scss">
 @import "~/assets/styles/typography.scss";
-@import "~/assets/styles/colors.scss";
-
-.white-background {
-  background-color: $white;
-}
-
-.content-center {
-  max-width: 50rem;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-hr {
-  margin: 16px 0;
-}
+@import "~/assets/styles/common.scss";
 
 </style>
