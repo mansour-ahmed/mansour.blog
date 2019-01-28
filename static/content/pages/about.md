@@ -35,5 +35,3 @@ As a human, I have two main hobbies - Brazilian Jujutsu & Salsa. Beside that I t
 You can get in touch with me any time, just click [here](/contact) and drop me a message.
 
 The primary place that I share articles, books, new tools, productivity tips and recommendations are through my weekly [newsletter](/newsletter).
-
-I mainly share things related to entrepreneurship, web development, personal finance and productivity tips. I still have a lot to learn, but I'm happy to share what I've learned along the way. If you are into these topics, then put your email address below and click "Get Updates From Ahmed!"
