@@ -1,5 +1,7 @@
 ---
-description: Landing page for Ahmed Mansour website.
+title: Home
+keywords: entrepreneur, finnish, egyptian, software, engineer, trainer, web, development, accessibility, performance, UX, speaker, consultant, Javascript
+description: Ahmed Mansour is a software engineer, entrepreneur and trainer.
 ---
 
 first paragraph about me.

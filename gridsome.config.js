@@ -1,3 +1,4 @@
+// @TODO fix favicon
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
@@ -6,9 +7,11 @@
 
 module.exports = {
   siteName: "Ahmed Mansour",
-  siteUrl: "",
-  siteDescription: "",
+  siteUrl: "https://ahmedmansour.me/",
+  siteDescription:
+    "Ahmed Mansour's website. Ahmed is a software engineer, professional trainer and entrepreneur living in Helsinki Finland",
   titleTemplate: "%s - Ahmed Mansour",
+  // icon: "src/assets/images/favicon.jpg",
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -29,36 +32,8 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "static/content/about.md",
-        typeName: "About"
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "static/content/articles.md",
-        typeName: "Articles"
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "static/content/podcast.md",
-        typeName: "Podcast"
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "static/content/newsletter.md",
-        typeName: "Newsletter"
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "static/content/courses.md",
-        typeName: "Courses"
+        path: "static/content/pages/*.md",
+        typeName: "Pages"
       }
     }
   ]
