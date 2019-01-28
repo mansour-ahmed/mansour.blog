@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="text-xs-center" v-html="$page.articles.content"></div>
+    <div class="text-xs-center" v-html="$page.pageData.content"></div>
     <v-list pa-2 v-for="(year, index) in  getYears(postsPerYear)" :key="index">
       <h3 class="light year">{{ year }}</h3>
       <v-layout py-2 align-center v-for="post in postsPerYear[year]" :key="post.id">
@@ -17,9 +17,11 @@
 
 <page-query>
 query Articles {
-  articles: articles(path: "/static/content/articles") {
+  pageData: pages(path: "/static/content/pages/articles") {
     content
     title
+    description
+    keywords
   }
   allPost {
     totalCount
@@ -77,6 +79,56 @@ export default {
       const sortedYears = postsYears.sort((a, b) => b - a);
       return sortedYears;
     }
+  },
+  metaInfo() {
+    return {
+      title: this.$page.pageData.title,
+      link: [
+        {
+          key: "canonical",
+          rel: "canonical",
+          href: location.href
+        }
+      ],
+      meta: [
+        {
+          key: "description",
+          property: "description",
+          content: this.$page.pageData.description
+        },
+        {
+          key: "keywords",
+          property: "keywords",
+          content: this.$page.pageData.keywords
+        },
+        { property: "og:title", content: this.$page.pageData.title },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.pageData.description
+        },
+        {
+          key: "og:type",
+          property: "og:type",
+          content: "article"
+        },
+        {
+          key: "og:url",
+          property: "og:url",
+          content: location.href
+        },
+        {
+          key: "twitter:text:title",
+          property: "twitter:text:title",
+          content: this.$page.pageData.title
+        },
+        {
+          key: "twitter:card",
+          property: "twitter:card",
+          content: "summary"
+        }
+      ]
+    };
   },
   mounted() {
     this.postsPerYear = this.groupPostsPerYear();

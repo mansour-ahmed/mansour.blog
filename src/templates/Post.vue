@@ -1,12 +1,12 @@
 <template >
   <Layout>
     <NewsletterPopup v-bind:dialog="dialogVisible" delay="15000"/>
-    <h1 v-show="$page.post">{{ $page.post.title }}</h1>
-    <div v-show="$page.post" class="body2 pb-5">Written by:
+    <h1 v-if="$page.post">{{ $page.post.title }}</h1>
+    <div v-if="$page.post" class="body2 pb-5">Written by:
       <g-link to="/about">{{ $page.post.author }}</g-link>
       - {{ $page.post.date }}
     </div>
-    <div v-show="$page.post" v-html="$page.post.content"></div>
+    <div v-if="$page.post" v-html="$page.post.content"></div>
   </Layout>
 </template>
 
@@ -35,18 +35,64 @@ export default {
       dialogVisible: false
     };
   },
+  created() {
+    console.log(location);
+    if (!this.$page.post) {
+      this.$router.push("404");
+    }
+  },
   metaInfo() {
     return {
-      title: this.$page.post ? this.$page.post.title : undefined,
+      title: this.$page.post.title,
       link: [
-        // {
-        //   rel: "canonical",
-        //   href: window.location
-        // },
+        {
+          key: "canonical",
+          rel: "canonical",
+          href: location.href
+        }
       ],
       meta: [
-        { name: "description", content: this.$page.post.description },
-        { name: "keywords", content: this.$page.post.keywords }
+        {
+          key: "description",
+          property: "description",
+          content: this.$page.post.description
+        },
+        {
+          key: "keywords",
+          property: "keywords",
+          content: this.$page.post.keywords
+        },
+        { property: "og:title", content: this.$page.post.title },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.post.description
+        },
+        {
+          key: "og:type",
+          property: "og:type",
+          content: "article"
+        },
+        {
+          key: "og:url",
+          property: "og:url",
+          content: location.href
+        },
+        {
+          key: "twitter:text:title",
+          property: "twitter:text:title",
+          content: this.$page.post.title
+        },
+        {
+          key: "twitter:card",
+          property: "twitter:card",
+          content: "summary"
+        },
+        {
+          key: "article:published_time",
+          name: "article:published_time",
+          content: this.$page.post.date
+        }
       ]
     };
   }

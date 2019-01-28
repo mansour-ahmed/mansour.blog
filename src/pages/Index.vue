@@ -1,28 +1,73 @@
 <template>
   <Layout>
-    <h1 class="text-xs-center">Hello, I'm Ahmed Mansour! 👋</h1>
-    <p>first paragraph about me.</p>
-    <p>second paragraph about me.</p>
-    <p>Would you like to hear more?
-      <g-link class="nav-link" to="/about">Read my stor</g-link>
-    </p>
-
-    <h3>Hear from me</h3>
-
-    <p>I am maintaining a weekly short
-      <g-link class="nav-link" to="/newletter">newsletter</g-link>
-    </p>
-
-    <p>Paragraph about the news letter</p>
-    <p>Ready to join me?
-      <g-link class="nav-link" to="/newletter">Join the newsletter over here</g-link>
-    </p>
+    <div v-html="$page.pageData.content"></div>
   </Layout>
 </template>
 
+<page-query>
+query Home {
+  pageData: pages(path: "/static/content/pages/home") {
+    content
+    title
+    description
+    keywords
+  }
+}
+</page-query>
 
 <script>
-export default {};
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.pageData.title,
+      link: [
+        {
+          key: "canonical",
+          rel: "canonical",
+          href: location.href
+        }
+      ],
+      meta: [
+        {
+          key: "description",
+          property: "description",
+          content: this.$page.pageData.description
+        },
+        {
+          key: "keywords",
+          property: "keywords",
+          content: this.$page.pageData.keywords
+        },
+        { property: "og:title", content: this.$page.pageData.title },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.pageData.description
+        },
+        {
+          key: "og:type",
+          property: "og:type",
+          content: "website"
+        },
+        {
+          key: "og:url",
+          property: "og:url",
+          content: location.href
+        },
+        {
+          key: "twitter:text:title",
+          property: "twitter:text:title",
+          content: this.$page.pageData.title
+        },
+        {
+          key: "twitter:card",
+          property: "twitter:card",
+          content: "summary"
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style>
