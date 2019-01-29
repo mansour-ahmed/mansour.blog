@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       drawer: null,
-      navLinks: ["about", "articles", "contact", "newsletter"]
+      navLinks: ["about", "contact", "newsletter"]
     };
   },
   methods: {
@@ -43,8 +43,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/common.scss";
-
 $toggle-btn-dimension: 2rem;
 
 .nav-link {

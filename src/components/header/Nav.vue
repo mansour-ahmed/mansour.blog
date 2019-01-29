@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      navLinks: ["about", "articles", "contact", "newsletter"]
+      navLinks: ["about", "contact", "newsletter"]
     };
   },
   methods: {},
