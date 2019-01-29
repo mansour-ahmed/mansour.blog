@@ -31,9 +31,9 @@
           </v-flex>
         </v-layout>
       </v-form>
-      <h5 class="text-grey">
-        * I follow a simple principle - I will treat you the way I would like to be treated.
-      </h5>
+      <h5
+        class="text-grey"
+      >* I follow a simple principle - I will treat you the way I would like to be treated.</h5>
     </div>
   </div>
 </template>
@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
 .content-center {
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
 }
 </style>
