@@ -73,7 +73,7 @@ export default {
 <style lang="scss" scoped>
 .about-container {
   /deep/ img {
-    width: 20rem;
+    width: 34rem;
   }
 }
 </style>
