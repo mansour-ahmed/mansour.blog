@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$toggle-btn-dimension: 2rem;
+$toggle-btn-dimension: 3.5rem;
 
 .nav-link {
   width: 100%;
