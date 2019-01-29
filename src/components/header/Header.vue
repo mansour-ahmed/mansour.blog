@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/common.scss";
 @import "~/assets/styles/colors.scss";
 
 .content {

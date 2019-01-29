@@ -114,8 +114,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/common.scss";
-
 /deep/ .v-list__tile--link {
   border-bottom: none;
 }

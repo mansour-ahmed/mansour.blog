@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background-color: #ffffff;"  v-if="!loading">
+  <v-app style="background-color: #ffffff;" v-if="!loading">
     <Header/>
     <v-content>
       <div class="layout content-center">
@@ -46,7 +46,4 @@ export default {
 
 
 <style lang="scss">
-@import "~/assets/styles/typography.scss";
-@import "~/assets/styles/common.scss";
-
 </style>
