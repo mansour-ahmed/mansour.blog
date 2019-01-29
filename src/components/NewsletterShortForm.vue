@@ -2,8 +2,9 @@
   <div class="newsletter-container pb-4">
     <v-divider></v-divider>
     <div class="content-center">
-      <h4>Free newsletter</h4>
-      <p>I mainly share things related to entrepreneurship, web development, personal finance and productivity tips. I still have a lot to learn, but I'm happy to share what I've learned along the way. If you are into these topics, then put your email address below and click "Get Updates From Ahmed"</p>
+      <h4>FREE NEWSLETTER</h4>
+      <p>#WebDev #Craftmanship #Productivity #Entrepreneurship</p>
+      <p>I still have a lot to learn, but I'm happy to share what I've learned along the way. If you are into these topics, then enter your email below.</p>
       <v-form
         v-model="valid"
         action="https://ahmedmansour.us7.list-manage.com/subscribe/post?u=c0188f6ed9bd9585764367b2b&amp;id=937f45c9bf"
@@ -30,6 +31,9 @@
           </v-flex>
         </v-layout>
       </v-form>
+      <h5 class="text-grey">
+        * I follow a simple principle - I will treat you the way I would like to be treated.
+      </h5>
     </div>
   </div>
 </template>

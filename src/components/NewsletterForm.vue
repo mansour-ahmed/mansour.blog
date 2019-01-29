@@ -8,8 +8,8 @@
             Get
             <strong>personally</strong> selected weekly favourite links to your email. 👌
           </p>
-          <p>#JS #Accessibility #Productivity
-            <br>#PersonalFinance #Entrepreneurship
+          <p>#WebDev #Craftmanship
+            <br>#Productivity #Entrepreneurship
           </p>
         </div>
         <v-layout column>
@@ -52,8 +52,9 @@
               color="primary"
               name="subscribe"
             >Subscribe me now</v-btn>
-            <h5>* strict NO-SPAM policy</h5>
-            <h5>* 1-click unsubscribe</h5>
+            <h5
+              class="text-grey"
+            >* I follow a simple principle - I will treat you the way I would like to be treated.</h5>
           </v-form>
         </v-layout>
       </v-container>
@@ -86,10 +87,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/colors.scss";
 @import "~/assets/styles/common.scss";
-
-h5 {
-  color: lighten($black, 30%);
-}
 </style>
