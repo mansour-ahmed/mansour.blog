@@ -9,7 +9,7 @@ description: Ahmed Mansour is a software engineer, entrepreneur and trainer. Cre
 
 I'm a Finnish-Egyptian **software engineer**, **entrepreneur**, and **trainer**.
 
-![Ahmed Mansour proflile Picture.](profile1.png "Ahmed Mansour proflile Picture")
+![Ahmed Mansour proflile Picture.](./profile1.png "Ahmed Mansour proflile Picture")
 
 This website is the home of my [blog](/articles).
 
@@ -17,9 +17,8 @@ In my articles I write mainly about how to build web applications that are more 
 
 As an engineer, I have a strong background in IT services consulting working with variety of clients from different industries such as eCommerce, paper, energy, and retail sector. My main focus is web software and typically in my projects I act as a frontend lead engineer.
 
-As an entrepreneur, I am working on creating products that solve problems that I personally encounter and think worth solving. My main projects are [transcriptify](https://www.transcriptify.com) and [nordschool](https://www.nordschool.com)
-
 Some of the areas I have experience with:
+
 - React/Redux
 - Vue/Vuex/Nuxt
 - Responsive design
@@ -27,6 +26,8 @@ Some of the areas I have experience with:
 - Serverless architecture
 - Typescript/Javascript
 - Web performance optimization
+
+As an entrepreneur, I am working on creating products that solve problems that I personally encounter and think worth solving. My main projects are [transcriptify](https://www.transcriptify.com) and [nordschool](https://www.nordschool.com)
 
 As a trainer, I teach the newest web technologies that are used to build scalable fast applications. Find out more [here](https://www.nordschool.com).
 
