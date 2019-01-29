@@ -1,8 +1,8 @@
 <template >
   <Layout>
-    <NewsletterPopup v-bind:dialog="dialogVisible" delay="15000"/>
+    <!-- <NewsletterPopup v-bind:dialog="dialogVisible" delay="15000"/> -->
     <h1 v-if="$page.post">{{ $page.post.title }}</h1>
-    <div v-if="$page.post" class="body2 pb-5">Written by:
+    <div v-if="$page.post" class="h4 pb-3">Written by:
       <g-link to="/about">{{ $page.post.author }}</g-link>
       - {{ $page.post.date }}
     </div>
@@ -17,7 +17,6 @@ query  Post ($path: String!) {
     content
     author
     date (format: "D. MMMM YYYY")
-    image
     description
     keywords
   }
@@ -99,16 +98,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "~/assets/styles/common.scss";
-
 /deep/ .g-image {
   max-width: 100%;
 }
 
 /deep/ .hljs {
-  padding: 1rem;
-  margin: 1rem 0;
+  padding: 1.6rem;
+  margin: 2rem 0;
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.07);
   border-radius: 4px;
+  font-size: 150%;
 }
 </style>
