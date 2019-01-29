@@ -11,7 +11,7 @@ I'm a Finnish-Egyptian **software engineer**, **entrepreneur**, and **trainer**.
 
 ![Ahmed Mansour proflile Picture.](./profile1.png "Ahmed Mansour proflile Picture")
 
-This website is the home of my [blog](/articles).
+This website is the home of my [blog](/).
 
 In my articles I write mainly about how to build web applications that are more user friendly, accessible and performant. I also write non technical articles about recent books I read, productivity tips and new tools.
 
