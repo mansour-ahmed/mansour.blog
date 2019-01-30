@@ -36,9 +36,10 @@ export default {
     loading: true
   }),
   created() {
-    this.$nextTick(function() {
-      this.loading = false;
-    });
+    this.loading = false;
+    // this.$nextTick(function() {
+    //   this.loading = false;
+    // });
   }
 };
 </script>
