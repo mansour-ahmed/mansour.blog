@@ -48,10 +48,16 @@ export default function(Vue, { router, head, isClient, isServer, options }) {
     content: "@AhmedMansour03"
   });
 
+  // @TODO remove these
   // Styles
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700"
+  });
+
+  head.link.push({
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css?family=Material+Icons"
   });
 
   // Global imports
