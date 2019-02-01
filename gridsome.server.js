@@ -14,7 +14,12 @@ module.exports = function(api) {
       if (isServer) {
         config.externals([
           nodeExternals({
-            whitelist: [/^vuetify/]
+            whitelist: [
+              /^vuetify/,
+              /^highlight.js/,
+              /^normalize.css/,
+              /^vue-material-design-icons/
+            ]
           })
         ]);
       }

@@ -3,13 +3,12 @@ import DefaultLayout from "~/layouts/Default.vue";
 import axios from "axios";
 import VueAnalytics from "vue-analytics";
 import VueAxios from "vue-axios";
-
-import "normalize.css/normalize.css";
 import "highlight.js/styles/github.css";
+import "normalize.css/normalize.css";
 import "~/assets/styles/main.styl";
-import "~/assets/styles/main.scss"
+import "~/assets/styles/main.scss";
 
-export default function(Vue, { router, head, isClient, isServer }) {
+export default function(Vue, { router, head, isClient, isServer, options }) {
   head.meta.push({
     name: "viewport",
     content:
@@ -53,11 +52,6 @@ export default function(Vue, { router, head, isClient, isServer }) {
   head.link.push({
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700"
-  });
-
-  head.link.push({
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css?family=Material+Icons"
   });
 
   // Global imports

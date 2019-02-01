@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background-color: #ffffff;" v-if="!loading">
+  <v-app style="background-color: #ffffff;">
     <Header/>
     <v-content>
       <div class="layout content-center">
@@ -31,15 +31,6 @@ export default {
   components: {
     Header,
     Footer
-  },
-  data: () => ({
-    loading: true
-  }),
-  created() {
-    this.loading = false;
-    // this.$nextTick(function() {
-    //   this.loading = false;
-    // });
   }
 };
 </script>

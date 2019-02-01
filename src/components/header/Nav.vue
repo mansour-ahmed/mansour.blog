@@ -13,11 +13,7 @@
 </template>
 
 <script>
-import MenuIcon from "vue-material-design-icons/Menu.vue";
 export default {
-  components: {
-    MenuIcon
-  },
   data() {
     return {
       navLinks: ["about", "contact", "newsletter"]
