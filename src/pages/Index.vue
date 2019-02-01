@@ -5,7 +5,7 @@
       <h3 class="light year">{{ year }}</h3>
       <v-layout pb-4 align-center v-for="post in postsPerYear[year]" :key="post.id">
         <v-flex xs4 md2>
-          <h4 class="semi-bold h4">{{ formatPostDate(post.date) }}.</h4>
+          <h4 class="semi-bold month">{{ formatPostDate(post.date) }}.</h4>
         </v-flex>
         <v-flex xs8 md10>
           <g-link class="h4 light anchor-without-border" :to="'/' + post.slug">{{ post.title }}</g-link>
@@ -136,12 +136,12 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .year {
   padding-bottom: 1rem;
 }
 
-.h4 {
+.month {
   margin-bottom: 0;
 }
 </style>
