@@ -8,7 +8,7 @@
     "now-build": "gridsome build"
   },
   "dependencies": {
-    "gridsome": "^0.4.5"
+    "gridsome": "^0.4.6"
   },
   "devDependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
@@ -28,7 +28,7 @@
     "stylus-loader": "^3.0.2",
     "vue-axios": "^2.1.4",
     "vue-material-design-icons": "^2.6.0",
-    "vuetify": "^1.4.2",
+    "vuetify": "^1.4.4",
     "webpack-node-externals": "^1.7.2"
   }
 }
