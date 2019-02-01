@@ -63,25 +63,27 @@
 <script>
 export default {
   name: "ContactForm",
-  data: () => ({
-    valid: false,
-    responseMsg: undefined,
-    name: "",
-    purpose: "Speaking",
-    description: "",
-    items: ["Event Speaking", "Training", "Consultation", "Question"],
-    nameRules: [
-      v => !!v || "Please tell us who you are my friend!",
-      v => v.length <= 40 || "The name is quite long, are you sure its right?"
-    ],
-    email: "",
-    emailRules: [
-      v => !!v || "We need your email to contact you, easily!",
-      v =>
-        /.+@.+/.test(v) ||
-        "Something seems wrong with the email, can you have a look?"
-    ]
-  }),
+  data() {
+    return {
+      valid: false,
+      responseMsg: undefined,
+      name: "",
+      purpose: "Speaking",
+      description: "",
+      items: ["Event Speaking", "Training", "Consultation", "Question"],
+      nameRules: [
+        v => !!v || "Please tell us who you are my friend!",
+        v => v.length <= 40 || "The name is quite long, are you sure its right?"
+      ],
+      email: "",
+      emailRules: [
+        v => !!v || "We need your email to contact you, easily!",
+        v =>
+          /.+@.+/.test(v) ||
+          "Something seems wrong with the email, can you have a look?"
+      ]
+    };
+  },
   methods: {
     submit() {
       const name = this.name;
