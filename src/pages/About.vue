@@ -30,7 +30,7 @@ export default {
       meta: [
         {
           key: "description",
-          property: "description",
+          name: "description",
           content: this.$page.pageData.description
         },
         {
