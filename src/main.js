@@ -22,7 +22,7 @@ export default function(Vue, { router, head, isClient, isServer, options }) {
   // Search Engine verifications
   head.meta.push({
     name: "google-site-verification",
-    content: "x0ppGw5l7mwuAoqBbJrl3yvdyFcYe4JLLODPr0L-okU"
+    content: "Qm8urYczZ93GuoMUmv71a5xS4d12Xesk6ksc9E7my_o"
   });
   head.meta.push({
     name: "msvalidate.01",
