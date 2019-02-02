@@ -7,7 +7,7 @@ description: Ahmed Mansour is a software engineer, entrepreneur and trainer. Cre
 
 # Hello! I'm Ahmed Mansour, nice to meet you 🤝
 
-I'm an Egyptian-Finnish **software engineer**, **entrepreneur**, and **trainer** living in Helsinki Finland.
+I'm a **software engineer**, **entrepreneur**, and **trainer** living in Helsinki Finland.
 
 ![Ahmed Mansour proflile Picture.](./profile2.png "Ahmed Mansour proflile Picture")
 
