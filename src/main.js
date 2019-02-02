@@ -77,6 +77,7 @@ export default function(Vue, { router, head, isClient, isServer, options }) {
 
   // Analytics
   const baseOptions = {
+    id: "UA-74640828-2",
     disabled: isServer,
     debug: {
       sendHitTask: process.env.NODE_ENV === "production"
