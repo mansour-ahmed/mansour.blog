@@ -2,7 +2,7 @@
   <div>
     <v-card class="form-container pa-2 elv-1" max-width="500">
       <v-container>
-        <h1 class="text-xs-center">Say Hello 👋</h1>
+        <h1 class="text-xs-center">Say Hello 🤙</h1>
         <p>I appreciate that you would like to get in touch with me.</p>
         <p>Some of the things I can help you with...</p>
         <ul>
