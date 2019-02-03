@@ -7,12 +7,12 @@
         <v-layout justify-center align-start pt-3 row>
           <a
             class="anchor-without-border"
-            href="https://www.linkedin.com/in/ahmedmansour03/"
+            href="https://github.com/mansour-ahmed/"
             target="_blank"
           >
             <g-image class="pr-4" alt="Linkedin Profile" :src="linkedinUrl" width="50"/>
           </a>
-          <a class="anchor-without-border" href="https://github.com/mansour-ahmed/" target="_blank">
+          <a class="anchor-without-border" href="https://www.linkedin.com/in/ahmedmansour03/" target="_blank">
             <g-image class="pr-4" alt="Github Profile" :src="githubUrl" width="50"/>
           </a>
           <a
