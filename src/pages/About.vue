@@ -74,6 +74,7 @@ export default {
 .about-container {
   /deep/ img {
     width: 34rem;
+    max-width: 100%;
   }
 }
 </style>
