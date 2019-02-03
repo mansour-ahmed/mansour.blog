@@ -63,10 +63,10 @@
 </template>
 
 <script>
-// import * as mailgun from "mailgun-js";
 export default {
   name: "NewsletterForm",
   data: () => ({
+    // @TODO refactor validation rules into an own function
     valid: false,
     name: "",
     nameRules: [

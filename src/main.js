@@ -5,7 +5,8 @@ import VueAnalytics from "vue-analytics";
 import VueAxios from "vue-axios";
 import "highlight.js/styles/github.css";
 import "normalize.css/normalize.css";
-import "~/assets/styles/main.styl";
+// @TODO Find a way to add minified vendor styles.
+import "~/assets/styles/vendor.styl";
 import "~/assets/styles/main.scss";
 
 export default function(Vue, { router, head, isClient, isServer, options }) {

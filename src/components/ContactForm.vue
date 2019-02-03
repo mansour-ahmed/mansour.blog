@@ -65,6 +65,7 @@ export default {
   name: "ContactForm",
   data() {
     return {
+      // @TODO refactor validation rules into an own function
       valid: false,
       responseMsg: undefined,
       name: "",
@@ -97,6 +98,7 @@ export default {
         body: `Purpose: ${purpose}, Description: ${description}`
       };
 
+      // @TODO refactor endpoint to be an env variable.
       this.axios
         .post(
           `https://us-central1-wired-cogency-227516.cloudfunctions.net/sendEmail`,

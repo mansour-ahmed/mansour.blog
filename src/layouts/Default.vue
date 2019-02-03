@@ -1,4 +1,5 @@
 <template>
+  <!-- @TODO remove hardcoded styles -->
   <v-app style="background-color: #ffffff;">
     <Header/>
     <v-content>

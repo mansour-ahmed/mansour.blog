@@ -91,6 +91,7 @@ export default {
         }
       ],
       meta: [
+        // @TODO refactor these into a function
         {
           key: "description",
           name: "description",
