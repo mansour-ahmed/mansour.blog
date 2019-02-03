@@ -26,17 +26,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-@import "~/assets/styles/colors.scss";
-
-.content {
-  display: grid;
-  grid-template-columns: 100% 100%;
-  grid-gap: 1rem;
-  color: $black;
-}
-
-.header-container {
-  padding: 4rem 0;
-}
-</style>
