@@ -11,7 +11,7 @@ description: An overview of the JAMStack. What is it all about, why it is a good
 
 If you have been doing any web development work recently, the odds are you have heard of the JAMstack, Gatsby, or Netlify.
 
-Let me walk you through what is the hype about, You are going to like this!
+Let me walk you through what is the hype about, you are going to like this!
 
 If we compare that to the LAMPstack or the MEANstack, the JAMstack isn't really about specific tools but more about architecture and high level principles.
 
@@ -52,7 +52,7 @@ These are the JAM [best practices](https://jamstack.org/best-practices/):
 - Atomic deploys
 - Instant cache invalidation
 - everything is living in git
-- automated build (Deployment through webhooks)
+- automated build (deployment through webhooks)
 
 ### Example
 
@@ -71,7 +71,7 @@ The tools used are:
 - Netlify for the infra structure (CDN and serverless functions)
 - Contentful as a headless CMS
 
-Let analyze some of the key elements for this architecture.
+Lets analyze some of the key elements for this architecture.
 
 ### Content
 
@@ -89,7 +89,7 @@ A common misconception is that web applications that are built following the JAM
 
 There are many key benefits for following such an architecture for your system.
 
-### Security & Points of failure
+### Security & points of failure
 
 Since the JAMstack significantly reduces the number of moving parts, as a result the risk of malicious hijacks decreases.
 
@@ -123,7 +123,7 @@ Less maintenance = Less depression and alcoholism for your dev team and less cos
 
 ### Scaling
 
-Have you have had your servers crashing because of your app/website was featured on the first page of hacker news or product hunt? Or had your online shop crashing on black friday? Then you will relate to this one.
+Have you had your servers crashing because of your app/website was featured on the first page of hacker news or product hunt? Or has your online shop crashed on black friday before? Then you will relate to this one.
 
 Using the JAMstack makes scaling your application a lot easier. Since all the content is already there when the app is built, and its served through a CDN. We won't have to put any extra effort or face any scaling up issues. No need to worry about load balancers and spinning up extra instances.
 
@@ -147,7 +147,7 @@ If you are asking yourself that if this is architecture is possible for you:
 
 > If you can use it on the web, you can probably build it with the JAMstack. - jamstack.org
 
-Your next question might be, so how to implement such an architecture. The answer, as always, is it depends.
+Your next question might be, so how to implement such an architecture. The answer, as always, is that **it depends**.
 
 Here is an overview of the ecosystem:
 
@@ -155,7 +155,7 @@ Here is an overview of the ecosystem:
 
 ##### Credits for the ecosystem diagram goes to Astasia Myers's [post](https://medium.com/memory-leak/the-jamstack-its-pretty-sweet-e0834e4e6bb7)
 
-My initial thought was, **oh dear! this is HUGE**
+My initial thought was, **oh dear, this is huge!.**
 
 That is the beauty of it, instead of gigantic monolithic platforms, you have smaller reusable, replaceable parts. This should support better your development team to meet business needs.
 
@@ -167,11 +167,11 @@ How important is build time for your project and business? Does it matter for yo
 
 ### Extensions
 
-Do the tools you use have an ecosystem that support your use case? Are there ready made plugins for some of your use cases?
+Do the tools you use have an ecosystem that supports your use case? Are there ready made plugins for some of your use cases?
 
 ### Purpose
 
-Are you building a blog, e-commerce solution, marketing static website? Is your project more content heavy website or its more of a dynamic web application?
+Are you building a blog, e-commerce solution, marketing static website? Is your project more like content heavy website or is it more of a dynamic web application?
 
 ### Community
 
@@ -179,7 +179,7 @@ How helpful is the community? Community is one of these things that can either m
 
 ### Content Editor
 
-Who will be editing the content? is it a team or just one person? Does the editor have any technical skills?
+Who will be editing the content? Is it a team or just one person? Does the editor have any technical skills?
 
 ## Resources
 
