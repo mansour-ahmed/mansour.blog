@@ -40,6 +40,9 @@ module.exports = {
       options: {
         id: "UA-74640828-2"
       }
+    },
+    {
+      use: "@gridsome/plugin-sitemap"
     }
   ]
 };
