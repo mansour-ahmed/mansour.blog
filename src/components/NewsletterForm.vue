@@ -8,8 +8,8 @@
             Get
             <strong>personally</strong> selected weekly favourite links to your email. 👌
           </p>
-          <p>#WebDev #Craftmanship
-            <br>#Productivity #Entrepreneurship
+          <p>#WebDev #JavaScript
+            <br>#Craftmanship #Entrepreneurship
           </p>
         </div>
         <v-layout column>

@@ -3,7 +3,7 @@
     <v-divider></v-divider>
     <div class="content-center">
       <h4>FREE NEWSLETTER</h4>
-      <p>#WebDev #Craftmanship #Productivity #Entrepreneurship</p>
+      <p>#WebDev #JavaScript #Craftmanship #Entrepreneurship</p>
       <p>I still have a lot to learn, but I'm happy to share what I've learned along the way. If you are into these topics, then enter your email below.</p>
       <v-form
         v-model="valid"
