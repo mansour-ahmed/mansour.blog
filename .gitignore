@@ -11,6 +11,8 @@
 # Icon must end with two \r
 Icon
 
+src/.temp/*
+
 # Thumbnails
 ._*
 
@@ -136,4 +138,4 @@ test/
 
 # End of https://www.gitignore.io/api/vue,node,vuejs,macos,nuxtjs
 
-src/.temp/*
+
