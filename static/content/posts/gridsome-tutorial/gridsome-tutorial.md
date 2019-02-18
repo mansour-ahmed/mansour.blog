@@ -1,5 +1,5 @@
 ---
-slug: Create-A-Blog-With-Vue-Gridsome-and-Netlify
+slug: create-a-blog-with-gridsome-and-vue
 title: Create A Blog With Gridsome & Vue
 date: 2019-02-18
 author: Ahmed Mansour
