@@ -64,10 +64,10 @@ By visiting `http://localhost:8080` you should see something like this:
 Now that you have initialized the project, you get few things out of the box.
 
 - **Progressive Lazy loading for images** using the `g-image`component.
-- **GraphQL** , You can play around with the explorer by visiting`http://localhost:8080/___explore`
+- **GraphQL** , You can play around with the explorer by visiting`http://localhost:8080/___explore`.
 
 - **Hot reload** development environment.
-- A web app that follows the **[JAMstack](/jamstack-what-why-and-how) architecture**
+- A web app that follows the **[JAMstack](/jamstack-what-why-and-how) architecture**.
 
 <h2 id="vuetify-scss">Vuetify & SCSS</h2>
 
@@ -77,13 +77,13 @@ Now that you have initialized the project, you get few things out of the box.
 
 To add Vuetify to the project you can do the following:
 
-1. Add Vuetify to the dependencies.
+1. Add Vuetify to the dependencies
 
 ```bash
 yarn add vuetify --dev
 ```
 
-2. Import Vuetify to the project.
+2. Import Vuetify to the project
 
 Your `main.js` file should look something like this:
 
@@ -125,11 +125,11 @@ module.exports = function(api) {
 };
 ```
 
-4. Add Vuetify's v-app component.
+4. Add Vuetify's v-app component
 
-Last step is to wrap your layout with Vuetify's [app component](https://vuetifyjs.com/en/getting-started/frequently-asked-questions#my-application-does-not-look-correct) .
+Last step is to wrap your layout with Vuetify's [app component](https://vuetifyjs.com/en/getting-started/frequently-asked-questions#my-application-does-not-look-correct).
 
-Inside the default layout (`Default.vue`) your should change the html to be like this:
+Inside the default layout (`Default.vue`) you should change the html to be like this:
 
 ```html
 <template>
@@ -152,7 +152,7 @@ Inside the default layout (`Default.vue`) your should change the html to be like
 </template>
 ```
 
-Note that the class `layout` has been changed since Vuetify has its own class with the same name. To avoid any conflicts the layout css in the component has been renamed to `custom-layout`. Don't also forget to add the `width: 100%` bit
+Note that the class `layout` has been changed since Vuetify has its own class with the same name. To avoid any conflicts the layout css in the component has been renamed to `custom-layout`. Don't also forget to add the `width: 100%` bit.
 
 ```css
 .custom-layout {
@@ -166,7 +166,7 @@ Note that the class `layout` has been changed since Vuetify has its own class wi
 
 ### SCSS
 
-Adding SCSS is quite straight forward. You will just need to add the loaders as dependencies.
+Adding SCSS is quite straightforward. You will just need to add the loaders as dependencies.
 
 ```bash
 yarn add sass-loader node-sass --dev
@@ -210,7 +210,7 @@ Now you can for example update your default layout to use scss like this:
 
 <h2 id="first-post">First Post</h2>
 
-Now that you have the project initialized. You need to add the support to loading the content for the blog posts. You can do that by adding the [filesystem plugin](https://gridsome.org/plugins/source-filesystem). This plugins makes creating content using markdown files a breath.
+Now that you have the project initialized, you need to add the support to loading the content for the blog posts. You can do that by adding the [filesystem plugin](https://gridsome.org/plugins/source-filesystem). This plugin makes creating content using markdown files a breath.
 
 A filesystem source will also require a transformer in order to parse the files. You can make use of Gridsome's [transformer-remark](https://gridsome.org/plugins/transformer-remark).
 
@@ -224,7 +224,7 @@ yarn add @gridsome/source-filesystem @gridsome/transformer-remark --dev
 
 2. Add the plugin and the transformer to Gridsome's config
 
-Edit your `gridsome.config.js` to look like this
+Edit your `gridsome.config.js` to look like this:
 
 ```js
 module.exports = {
@@ -249,11 +249,11 @@ module.exports = {
 
 These changes tell Gridsome that you would like to make use of the plugin @gridsome/source-filesystem and the remark transformer.
 
-Note that the plugin options sets up the routes of every post based the slug value in the markdown file. For example, a post with a slug `the-best-post` will have the route `/the-best-post`
+Note that the plugin options sets up the routes of every post based the slug value in the markdown file. For example, a post with a slug `the-best-post` will have the route `/the-best-post`.
 
-Also It defines which template to use, in this case the tempalte is `Post`
+Also it defines which template to use, in this case the tempalte is `Post`.
 
-Next you will need to create the template inside `templates/Post.vue`
+Next you will need to create the template inside `templates/Post.vue`.
 
 The initial template can be something like this:
 
@@ -294,14 +294,14 @@ The code here fetches the post's data using GraphQL. These variables must match 
 
 In case you are not familiar with GraphQL, the code simply fetches data of type post and it is defining the schema the component would like to have.
 
-Now to test this you can create your first post 🔥
+Now to test this you can create your first post! 🔥
 
-To achieve this you need to create a new directory called `posts`. Inside the directory will live all your blog posts. Of course you could have the posts somewhere else, its just a matter of a personal preference. I prefer to have one directory per blog post to have all the assets related to the post added there as well. If you decide to change the structure, remember to update the configs in the `gridsome.config.js` file
+To achieve this you need to create a new directory called `posts`. Inside the directory will live all your blog posts. Of course you could have the posts somewhere else, its just a matter of a personal preference. I prefer to have one directory per blog post to have all the assets related to the post added there as well. If you decide to change the structure, remember to update the configs in the `gridsome.config.js` file.
 
 The initial post can be over there:
 `static/posts/the-best-post/the-best-post.md`
 
-The content can be something like this
+The content can be something like this:
 
 ```md
 ---
@@ -323,7 +323,7 @@ The best unordered list:
 - best item 2
 ```
 
-Remember to reload your dev server and afterwards if you navigate to `localhost:8080/the-best-post`, you should see something like this:
+Remember to reload your dev server and then navigate to `localhost:8080/the-best-post`, you should see something like this:
 
 ![Image of the initial post created.](initial-post.png 'Image of the initial post created.')
 
@@ -341,6 +341,6 @@ Gridsome will fetch all the content during this build process and you will have 
 
 Now all you need to do is to style the blog and add all necessary other static content & metadata and you are good to go! 👍
 
-Once you are ready with your blog, you can upload it to [Netlify](https://www.netlify.com/) for hosting. The folks at Netlify had made it so easy to do things that I feel it does not need any detailed explanation. Just check their [docs](https://www.netlify.com/docs) and your blog will be up and running in no time.
+Once you are ready with your blog, you can upload it to [Netlify](https://www.netlify.com/) for hosting. The folks at Netlify have made it so easy to do things that I feel it does not need any detailed explanation. Just check their [docs](https://www.netlify.com/docs) and your blog will be up and running in no time.
 
-Hopefully you found this helpful! As I mentioned earlier, All the code for this tutorial can be found over [here](https://github.com/mansour-ahmed/gridsome-tutorial). If you have any questions, feel free to ask me on [twitter](https://twitter.com/AhmedMansour03/). Enjoy! ✌️
+Hopefully you found this helpful! As I mentioned earlier, all the code for this tutorial can be found over [here](https://github.com/mansour-ahmed/gridsome-tutorial). If you have any questions, feel free to ask me on [Twitter](https://twitter.com/AhmedMansour03/). Enjoy! ✌️
