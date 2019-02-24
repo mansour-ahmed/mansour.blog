@@ -29,7 +29,7 @@ Focusing on the most important 3-5 “things” is true for both companies and p
 
 > The reality distortion field was a confounding mélange of a charismatic rhetorical style, indomitable will, and eagerness to bend any fact to fit the purpose at hand.
 
-Through his reality distortion field, Steve created his version of reality. This didn’t only affect him but also the people that worked with him.
+Through his reality distortion field, Steve created his version of reality. This didn’t only affect him but also the people he worked with.
 
 > In his presence, reality is malleable. He can convince anyone of practically anything. It wears off when he’s not around, but it makes it hard to have realistic schedules.
 
@@ -61,11 +61,11 @@ Steve has been lucky enough to be in the intersection between art and technology
 
 Being in **control**, I think, has been one of the main factors why Apple has been able to produce great products.
 
-Steve didn’t want to risk having a crappy software running on their hardware so he couldn’t help it but to produce both the hardware and the software. Apple's control later on got extended by Apple Stores, iTunes, and the App Store.
+Steve didn’t want to risk having a crappy software running on their hardware so he couldn’t help it but to produce both the hardware and the software. Apple extended its control afterwards by Apple Stores, iTunes, and the App Store.
 
-Now I understand why it is not as easy to publish apps on iOS App Store compared to Android’s. That is due to the fact that Apple wants to be in control and review what apps get to run on their devices.
+Now I understand why it is not as easy to publish apps on iOS App Store compared to Android store. That is due to the fact that Apple wants to be still in control and review what apps get to run on their devices.
 
-Allowing 3rd party apps running on Apple's devices was a compromise from Steve as he initially didn’t want any 3rd party apps to run on their products.
+Allowing 3rd party apps running on Apple's devices was a compromise from Steve that he initially didn’t want any 3rd party apps to run on their products.
 
 **Lesson number four**
 
@@ -79,7 +79,7 @@ Steve saw the world in binary terms. Either somebody was a **bozo** or a **geniu
 
 **Lesson number five**
 
-**I am affected by the environment around me and I am the average of the 5 people I spend most time with.**
+**I'm affected by the environment around me. I'm the average of the 5 people I spend most time with.**
 
 **I must strive to be an A player and aim to work with more A players.**
 
