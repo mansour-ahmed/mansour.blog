@@ -4,12 +4,12 @@ title: Lessons learnt from Steve Jobs
 date: 2019-02-24
 author: Ahmed Mansour
 keywords: steve jobs, apple, focus, book, lessons, reality distortion field, art, technology, control, A players, memento mori, entrepreneurship
-description: In an attempt to reflect on some of the lessons I learnt from Job’s biography. I try to understand better what makes great products, entrepreneurship, and how organizations can strive.
+description: Reflecting on Steve Job’s biography, these are some of my takeaway lessons. I learnt more about great products, entrepreneurship and how organizations can strive.
 ---
 
-Reflecting on [Steve Job’s biography](https://amzn.to/2H0i4HB), these are some of my takeaway lessons. I learnt more about great products, entrepreneurship and how organizations can strive.
+Reflecting on [Steve Jobs' biography](https://amzn.to/2H0i4HB), these are some of my takeaway lessons about great products, entrepreneurship and how organizations can strive.
 
-As a person, Steve was far from being perfect. Nevertheless, there are lots of things I learnt reading about his life.
+As a person, Steve Jobs was far from being perfect. Nevertheless, there are lots of things I learnt reading about his life.
 
 ## Focus
 
@@ -21,7 +21,7 @@ The world is full of distractions. To strive to be the best version of myself, I
 
 Focusing on the most important 3-5 “things” is true for both companies and people. To create something truly great takes a lot of effort and time. A **YES** to something is a **NO** for something else, whether I like it or not.
 
-**Lesson #one**
+**Lesson number one**
 
 **I must focus on my top priorities and learn to say “NO” more often.**
 
@@ -39,7 +39,7 @@ I find working on something new often daunting and overwhelming. Immediately my 
 
 > If you act like you can do something, then it will work.
 
-**Lesson #two**
+**Lesson number two**
 
 **It is only impossible in my head.**
 
@@ -49,7 +49,7 @@ I find working on something new often daunting and overwhelming. Immediately my 
 
 Steve has been lucky enough to be in the intersection between art and technology. He really understood design, technology and business. Since technology is often used by people, a cooperation between technologist, artists and designers is necessary to create something great.
 
-**Lessons #three**
+**Lessons number three**
 
 **I need to broaden my knowledge in other fields outside technology as well.**
 
@@ -67,7 +67,7 @@ Now I understand why it is not as easy to publish apps on iOS App Store compared
 
 Allowing 3rd party apps running on Apple's devices was a compromise from Steve as he initially didn’t want any 3rd party apps to run on their products.
 
-**Lesson #four**
+**Lesson number four**
 
 **Relinquishing control increases the risk of things going wrong without me being able to affect them directly. I should understand the risk and the cost of relinquishing control both on a professional and personal level.**
 
@@ -77,7 +77,7 @@ Allowing 3rd party apps running on Apple's devices was a compromise from Steve a
 
 Steve saw the world in binary terms. Either somebody was a **bozo** or a **genius**. He saw the necessity to work only with A players. He believed that B players drag the A players down and create a toxic environment.
 
-**Lesson #five**
+**Lesson number five**
 
 **I am affected by the environment around me and I am the average of the 5 people I spend most time with.**
 
@@ -89,6 +89,6 @@ Steve saw the world in binary terms. Either somebody was a **bozo** or a **geniu
 
 Long before he was diagnosed by cancer, Steve had had throughout his life a “feeling” that he will die young. That motivated him to find a mission and try to stay focused on what mattered the most. In his case that was building **great products** and **great companies** that would outlive him.
 
-**Lesson #six**
+**Lesson number six**
 
 **Remember you will die.**
