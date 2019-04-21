@@ -3,8 +3,8 @@ slug: on-being-a-pragmatic-programmer-principles
 title: On Being A Pragmatic Programmer - Principles
 date: 2019-04-15
 author: Ahmed Mansour
-keywords:
-description:
+keywords: pragmatic, programmer, craftmanship, mentality, developer, principles, shy code, dry, testing, ask why, document your work
+description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
 You can find the intro to the post series [here](/on-being-a-pragmatic-programmer-intro).
@@ -74,7 +74,7 @@ Typically, methods and practices are try to solve a problem. I should consider i
 
 Takeaway: **Ask why before adopting a process.**
 
-## Testing is compulsory
+## Testing Is Compulsory
 
 Regardless of any tight schedules or time pressure, skipping writing tests is not an option. It is simple, either I test the code myself or else my users will.
 
@@ -90,7 +90,7 @@ Second helpful one is to consider what level of testing one should aim for. I us
 
 Takeaway: **Testing is not optional.**
 
-## Share reasons
+## Share Reasons
 
 ![I don't remember what this piece of code does anymore.](image7.png)
 

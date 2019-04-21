@@ -3,8 +3,8 @@ slug: on-being-a-pragmatic-programmer-mentality
 title: On Being A Pragmatic Programmer - Mentality
 date: 2019-03-11
 author: Ahmed Mansour
-keywords:
-description:
+keywords: pragmatic, programmer, craftmanship, mentality, developer, mentality, proactive, knowledge portfolio
+description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
 You can find the intro to the post series [here](/on-being-a-pragmatic-programmer-intro).
@@ -46,7 +46,7 @@ When can I say now it is great enough? I need to define the minimal acceptable s
 Takeaway: **Great today is almost always better than perfect tomorrow.**
 Takeaway: **Define the minimal viable great standard and measure work against it.**
 
-## Knowledge portfolio
+## Knowledge Portfolio
 
 I have the interest in financial markets and investing. There are lots of concepts from the investing world that could be applied to other aspects of life, including building software. As craftman I should aim to treat my knowledge in the same manner I manage my assets in a financial portfolio. These are high level strategies that I learnt are applicable to developing knowledge in the software world:
 
@@ -58,7 +58,7 @@ I have the interest in financial markets and investing. There are lots of concep
 
 Takeaway: Manage my knowledge portfolio. Regularly invest, diversify, manage risk and rebalance.
 
-## Be pessimistic
+## Be Pessimistic
 
 "**_Can't read value of undefined_** - Oh, but I thought this should never happen!". Does this sound familiar to you?
 
@@ -68,7 +68,7 @@ For example, if I am developing an application that has an external dependency. 
 
 Takeaway: **Be pessimistic when writing code.**
 
-## Programming by coincidence
+## Programming By Coincidence
 
 Program Deliberately - know what your doing and document your assumptions.
 
@@ -90,7 +90,7 @@ Tip 70: Sign Your Work
 
 Takeaway #8: -->
 
-## Change friendly by design
+## Change-friendly Environment
 
 ![Change happen all the time, acount for it.](image5.png)
 

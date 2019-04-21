@@ -3,8 +3,8 @@ slug: on-being-a-pragmatic-programmer-intro
 title: On Being A Pragmatic Programmer - Intro
 date: 2019-03-11
 author: Ahmed Mansour
-keywords:
-description:
+keywords: pragmatic, programmer, craftmanship, intro, kaizen, happiness, muda.
+description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
 There is a great joy in being good at your craft.
@@ -13,7 +13,7 @@ Almost accidentally, I made an observation about myself. I really **enjoy** doin
 
 There is a Japanese concept called **kaizen**. The concept emphasizes the continuous improvement of a system by eliminating what is called **muda** (waste) through a lot of very small changes.
 
-I aim to follow the kaizen concept to be a little bit better day-by-day that I can ultimately be closer to the best version of myself.
+I aim to follow this concept to be a little bit better day-by-day that I can ultimately be closer to the best version of myself.
 
 This post series focuses mainly on the craft of writing code and working professionally as a programmer since it is one of the things I identify with. However, such a mentality is applicable to many other aspects of life.
 

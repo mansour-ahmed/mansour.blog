@@ -3,8 +3,8 @@ slug: on-being-a-pragmatic-programmer-organization-and-team
 title: On Being A Pragmatic Programmer - Organization & Team
 date: 2019-03-25
 author: Ahmed Mansour
-keywords:
-description:
+keywords: pragmatic, programmer, craftmanship, mentality, developer, organizations, teams, ways of working
+description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
 You can find the intro to the post series [here](/on-being-a-pragmatic-programmer-intro).
@@ -29,7 +29,7 @@ The point here is, small problems grow to become bigger problems without me noti
 
 Takeaway: **Small problems grow to to become bigger problems. I should pay attention to fix my broken windows (small problems) immediately.**
 
-## Speak the same language
+## Speak The Same Language
 
 I have seen many conversations that go something like this:
 Engineer person: "I think X needs to be fixed in that way."
@@ -43,7 +43,7 @@ I found one way to make sure teams are on the same page, is to define a glossary
 
 Takeaway: **Use the correct domain language and document it.**
 
-## Measure it to manage it,
+## Measure It To Manage It,
 
 In many projects I found managing requirements' growth and aligning project's scope tend to be a challenging task.
 
@@ -105,24 +105,25 @@ What to Say When Asked for an Estimate
 Challenges
 Start keeping a log of your estimates. For each, track how accurate you turned out to be. If your error was greater than 50%, try to find out where your estimate went wrong. -->
 
-<!-- ## Team up
+## Functionality Over Competence
 
-In most projects I worked on, during the implementation of a feature the workflow goes as follows:
+In a typical project, during the implementation of a feature the workflow goes as follows:
+
 - Requirements are gathered and explained.
 - One (or more) developer works on the frontend implementation of the feature.
 - One (or more) developer works on the backend implementation of the feature.
 
-The problem here is that this setup is not optimal from the project point of view. Implementing a feature require understanding
+The problem here is that this setup is not as efficient. Implementing a feature requires an understanding of the requirements. The higher the number of developers that have to understand and interpret the requirements, the higher the risk the solution deviate from the requirements. Also the given feature takes would often take longer since multiple people need to coordinate.
 
-It is typical for developers to focus on work based on their area of specialization and competence. For instance, in the context of web development I have been mainly focusing on working on the frontend. But I start to see quickly that from the point of view of any project, that is not as optimal. As most features of a system requires working on both the frontend & the backend. I try
+It is typical for developers to focus on work based on their area of specialization and competence. For instance, in the context of web development I have been mainly focusing on working on the frontend. But I start to see quickly that from the point of view of any project, that is not as optimal. As most features of a system requires working on both the frontend & the backend.
 
- In the usual debate of the specialist vs generalist, I chose to be a generalist with a specialization. What that means to me is that I choose to focus primarily on specific technologies to be my build my foundation and deep my knowledge, but also generally be open and learn other technologies to solve a given problem.
+In the debate of specialist vs generalist, I chose to be a generalist with a specialization. What that means to me is that I choose to focus primarily on specific technologies to be my build my foundation and deepen my knowledge, but also generally be open and learn other technologies to solve a given problem. This way I can often take ownership of certain features end-to-end.
 
+Of course this would not work all the time, in certain scenarios it makes more sense to focus on the competence if there is a particularly challenging problem that requires a deep understanding and experience of a certain technology.
 
+Takeaway: **Arrange work per functionality over competence.**
 
-Takeaway : Team per functionality not per competence. -->
-
-## Dig for the truth
+## Dig For The Truth
 
 ![Try to find the real problem that the requirements are trying to solve.](image4.png)
 
@@ -136,7 +137,7 @@ When I get such a privilege, I am able to understand a lot better the users' nee
 
 Takeaway: **Work with a user whenever is possible.**
 
-## Tightening the Net
+## Tightening The Net
 
 I really like this one. It is such a simple idea but had a profound effect on my work.
 
@@ -152,4 +153,5 @@ Other parts of the series:
 - [Part Three - Principles](/on-being-a-pragmatic-programmer-principles)
 
 Credits for the images:
+
 - [Quick meme](http://www.quickmeme.com/meme/3t7r6y)
