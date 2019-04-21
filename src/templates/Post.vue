@@ -1,6 +1,6 @@
 <template >
   <Layout>
-    <NewsletterPopup v-bind:dialog="dialogVisible" delay="30000"/>
+    <!-- <NewsletterPopup v-bind:dialog="dialogVisible" delay="30000"/> -->
     <h1 v-if="$page.post">{{ $page.post.title }}</h1>
     <div v-if="$page.post" class="h4 pb-3">Written by:
       <g-link to="/about">{{ $page.post.author }}</g-link>

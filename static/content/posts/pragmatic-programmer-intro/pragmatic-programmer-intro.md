@@ -1,6 +1,6 @@
 ---
 slug: on-being-a-pragmatic-programmer-intro
-title: On being a pragmatic programmer - Intro
+title: On Being A Pragmatic Programmer - Intro
 date: 2019-03-11
 author: Ahmed Mansour
 keywords:
@@ -9,18 +9,22 @@ description:
 
 There is a great joy in being good at your craft.
 
-It was almost by accident that I noticed about myself that I really enjoy doing something I am good at and doing it as well as I can. So purely for happiness reasons, I started my journey on adopting the craftmanship mentality. I aim to be a little bit better day-by-day that I can ultimately be closer to the best version of myself.
+Almost accidentally, I made an observation about myself. I really **enjoy** doing things that I feel like I am good at. I get a sense of joy doing these things as well as I can. So purely for happiness reasons, I started my journey on adopting a craftmanship mentality.
 
-Since one of the things I identify with is being a programmer, the posts series focuses mainly on programming as a craft and working professionally as a programmer. However, in general such a mentality is applicable to many other aspects of life.
+There is a Japanese concept called **kaizen**. The concept emphasizes the continuous improvement of a system by eliminating what is called **muda** (waste) through a lot of very small changes.
 
-One of the great books about the subject is [the pragmatic programmer](). A lot of my takeaways are coming from reading it so a lot of the credit goes to it.
+I aim to follow the kaizen concept to be a little bit better day-by-day that I can ultimately be closer to the best version of myself.
+
+This post series focuses mainly on the craft of writing code and working professionally as a programmer since it is one of the things I identify with. However, such a mentality is applicable to many other aspects of life.
+
+A great books about tht subject is [the pragmatic programmer](https://amzn.to/2VXGCFL). A lot of my takeaways are coming from reading it so some credit is due to the book and its authors.
 
 This quote summarizes well what is this all about..
 
 > Why spend your life developing software unless you care about doing it **well**? - The pragmatic programmer
 
 
-This essay is divided into the following parts:
+The series is divided into the following parts:
 
 - [Part One - Mentality](/on-being-a-pragmatic-programmer-mentality)
 - [Part Two - Organization & Team](/on-being-a-pragmatic-programmer-organization-and-team)

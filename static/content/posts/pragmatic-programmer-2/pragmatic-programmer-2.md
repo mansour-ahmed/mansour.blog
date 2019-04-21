@@ -1,23 +1,25 @@
 ---
 slug: on-being-a-pragmatic-programmer-organization-and-team
-title: On being a pragmatic programmer - Organization & Team
+title: On Being A Pragmatic Programmer - Organization & Team
 date: 2019-03-25
 author: Ahmed Mansour
 keywords:
 description:
 ---
 
-You can find the intro to these post series [here](/on-being-a-pragmatic-programmer-intro).
+You can find the intro to the post series [here](/on-being-a-pragmatic-programmer-intro).
 
 **Disclaimer**
 
-I am by no means perfect, I am good at somethings and bad at others. The following points are merely my own notes, for myself, about different topics and takeaways in my attempt to be a better programmer. I share these notes in hope that somebody would find them helpful in their journey of becoming better at their craft.
+In an attempt to be a better programmer, the following points are merely my own notes and learnings, for myself, that I found helpful for me to be better at what I do. I am by no means perfect, I am good at somethings and bad at others.
+
+I share these notes in hope that somebody would find them helpful in their own journey of becoming better at their craft.
 
 # Organization
 
-## Dont be a frog
+<h2 id="frog">Dont be a frog</h2>
 
-In the [book](), the authors articlate well how small problems can grow quickly.
+In the [book](https://amzn.to/2VXGCFL), the authors articulate well how small problems can grow quickly.
 
 Think of a frog. If we throw the frog in a boiling hot water pot, it will jump immediately out. However, if we put it in cool water and heat the water slowly the frog won't notice the temperature changing and will die boiling.
 
@@ -25,11 +27,9 @@ Think of a frog. If we throw the frog in a boiling hot water pot, it will jump i
 
 The point here is, small problems grow to become bigger problems without me noticing. I should fix the small problems immediately or I would be risking being the frog.
 
-Takeaway: Small problems grow to to become bigger problems. I should pay attention to fix my broken windows (small problems) immediately.
+Takeaway: **Small problems grow to to become bigger problems. I should pay attention to fix my broken windows (small problems) immediately.**
 
 ## Speak the same language
-
-.....Picture of different domain trying to communicate
 
 I have seen many conversations that go something like this:
 Engineer person: "I think X needs to be fixed in that way."
@@ -41,7 +41,7 @@ Unifying domain language is essential. The same word must carry the same meaning
 
 I found one way to make sure teams are on the same page, is to define a glossary of all common domain specific terms.
 
-Takeaway: Use the correct domain language and document it.
+Takeaway: **Use the correct domain language and document it.**
 
 ## Measure it to manage it,
 
@@ -51,7 +51,7 @@ Often, the challenge is that the team can't to see how does a feature impact the
 
 Almost always a "yes" to a feature would mean "no" to another feature. To manage requirements and scopes, I must be able to point out the impact of every feature request on the schedule of my project.
 
-Takeaway: Maintain an environment that supports easily measuring the overall impact of a new change on the project resources and schedule.
+Takeaway: **Maintain an environment that supports easily measuring the overall impact of a new change on the project resources and schedule.**
 
 <!-- ## Freedom
 
@@ -61,7 +61,7 @@ Degrees of Freedom - The Specification Trap -->
 
 ## Automation
 
---- picture of automation here
+![Automate away](image3.png)
 
 > Automation is an essential component of every project team
 
@@ -73,7 +73,7 @@ Second, automating away repeated tasks means I am free! I am free to tackle the 
 
 Automation is very powerful. Reoccurring routine tasks is always part of my work routine. So there is always room for automating more! Of course I need to know where to draw the line and where its an overkill, but overall looking for opportunities to automate things really pays off.
 
-Takeaway: Automate as much as you can!
+Takeaway: **Automate as much as you can!**
 
 ## Expectations
 
@@ -91,7 +91,7 @@ Few things that I aim to follow to make sure I set the correct expectations:
 - Communicate regularly.
 - Keep track of the bigger picture & update it if needed.
 
-Takeaway: Set the right expectations and exceed them.
+Takeaway: **Set the right expectations and exceed them.**
 
 # Team
 
@@ -124,15 +124,17 @@ Takeaway : Team per functionality not per competence. -->
 
 ## Dig for the truth
 
+![Try to find the real problem that the requirements are trying to solve.](image4.png)
+
 Requirements are rarely easily available so its part of my duties to just gather them. Typically the root problem is not that easy to find and require asking lots of "why" questions to get to the bottom of the issue.
 
-Takeaway: Ask why more often to get the real requirements.
+Takeaway: **Ask why more often to get the real requirements.**
 
 Typically software is built to serve a specific domain. People that build and design the software are not necessarily experts in that domain. Whenever possible, working with a real user makes such a great difference.
 
 When I get such a privilege, I am able to understand a lot better the users' needs, pain points and goals.
 
-Takeaway: Work with a user whenever is possible.
+Takeaway: **Work with a user whenever is possible.**
 
 ## Tightening the Net
 
@@ -142,10 +144,12 @@ When a bug is reported, I should add a new test to catch it as part of the fix. 
 
 This way, I make sure that the bug is not reported twice, if a similar thing happens in the future, my tests would let me know.
 
-Takeaway: Find and fix bugs only once.
+Takeaway: **Find and fix bugs only once.**
 
-
-Other parts of the essay:
+Other parts of the series:
 
 - [Part One - Mentality](/on-being-a-pragmatic-programmer-mentality)
 - [Part Three - Principles](/on-being-a-pragmatic-programmer-principles)
+
+Credits for the images:
+- [Quick meme](http://www.quickmeme.com/meme/3t7r6y)
