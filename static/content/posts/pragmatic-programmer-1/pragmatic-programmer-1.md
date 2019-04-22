@@ -3,7 +3,7 @@ slug: on-being-a-pragmatic-programmer-mentality
 title: On Being A Pragmatic Programmer - Mentality
 date: 2019-03-11
 author: Ahmed Mansour
-keywords: pragmatic, programmer, craftmanship, mentality, developer, mentality, proactive, knowledge portfolio
+keywords: pragmatic, programmer, craftsmanship, mentality, developer, mentality, proactive, knowledge portfolio
 description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
@@ -11,9 +11,9 @@ You can find the intro to the post series [here](/on-being-a-pragmatic-programme
 
 **Disclaimer**
 
-In an attempt to be a better programmer, the following points are merely my own notes and learnings, for myself, that I found helpful for me to be better at what I do. I am by no means perfect, I am good at somethings and bad at others.
+In an attempt to be a better programmer, the following points are merely my own notes and learnings, for myself, that I found helpful for me to be better at what I do. I am by no means perfect, I am good at some things and bad at others.
 
-I share these notes in hope that somebody would find them helpful in their own journey of becoming better at their craft.
+I share these notes in hope that somebody would find them helpful in their own journey becoming better at their craft.
 
 # Mentality
 
@@ -21,7 +21,7 @@ Proactive vs reactive. Think what you can do.
 
 ## Be Proactive
 
-Be proactive, be in control. I have come across this idea in a number of books. Instead of being reactive to the world around me, I should do things **deliberately**. Some of the applications of being proactive as a programmer I learnt:
+Be proactive, be in control. I have come across this idea in many of books. Instead of being reactive to the world around me, I should do things **deliberately**. Some of the applications of being proactive as a programmer I learnt:
 
 - Criticize and appraise my work regularly.
 - Think solutions, instead of problems. I try to ask myself, what in my control that I can do to fix a problem.
@@ -33,22 +33,22 @@ Takeaway: **Be proactive, always think what can I do.**
 
 ## Today Not Tomorrow
 
-Being a craftman is often associated with being a perfectionist. Taking care of details is essential, but...
+Being a craftsman is often associated with being a perfectionist. Taking care of details is essential, but...
 
-> **Great** software today is often preferable to perfect software tomorrow. - The pragmatic programmer
+> **Great** software today is often preferable to perfect software tomorrow. - The Pragmatic Programmer
 
 I hear this statement regularly in my bubble. I mostly agree with the importance of prioritizing delivering results today over tomorrow.
 
 On the other hand, I should not use this as an excuse to produce low quality results. The key word here for me is **great** and **today**.
 
-When can I say now it is great enough? I need to define the minimal acceptable standard that defines my work to be great. These standards should be holistic that consider all the important factors both technical and non-technical. This way I know when my work in the minimal great shape to stop.
+When can I say now it is great enough? I need to define the minimal acceptable standard that defines my work to be great. These standards should be holistic that consider all the important factors both technical and non-technical. This way I know when my work is in the minimal **great** shape and is good enough to be shipped.
 
 Takeaway: **Great today is almost always better than perfect tomorrow.**
 Takeaway: **Define the minimal viable great standard and measure work against it.**
 
 ## Knowledge Portfolio
 
-I have the interest in financial markets and investing. There are lots of concepts from the investing world that could be applied to other aspects of life, including building software. As craftman I should aim to treat my knowledge in the same manner I manage my assets in a financial portfolio. These are high level strategies that I learnt are applicable to developing knowledge in the software world:
+I have the interest in financial markets and investing. There are lots of concepts from the investing world that could be applied to other aspects of life, including building a software. As craftsman I should aim to treat my knowledge in the same manner I manage my assets in a financial portfolio. These are high level strategies that I learnt are applicable to developing knowledge in the software world:
 
 - Invest regularly - Investing is a continuous process not a one time thing.
 - Diversify - Diversify my knowledge portfolio with different technologies.
@@ -60,9 +60,9 @@ Takeaway: Manage my knowledge portfolio. Regularly invest, diversify, manage ris
 
 ## Be Pessimistic
 
-"**_Can't read value of undefined_** - Oh, but I thought this should never happen!". Does this sound familiar to you?
+"**_Can't read value of undefined_** - Oh, but I thought this should never happen!" Does this sound familiar to you?
 
-Every programmer has a set of assumptions that they work based on. When it comes to assumptions, I learnt that being pessimistic pays off!
+Every programmer has a set of assumptions that their work is based on. When it comes to assumptions, I learnt that being pessimistic pays off!
 
 For example, if I am developing an application that has an external dependency. I would have specific expectations regarding the data I would receive from these systems. Before processing any data I always have to validate the response given. Not only that I should validate the data, I also should handle cases when the "unexpected" happen. This way I am more confident that my work is more robust and resilient.
 

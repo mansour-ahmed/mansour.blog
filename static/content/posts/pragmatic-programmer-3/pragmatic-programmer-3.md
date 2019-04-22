@@ -3,7 +3,7 @@ slug: on-being-a-pragmatic-programmer-principles
 title: On Being A Pragmatic Programmer - Principles
 date: 2019-04-15
 author: Ahmed Mansour
-keywords: pragmatic, programmer, craftmanship, mentality, developer, principles, shy code, dry, testing, ask why, document your work
+keywords: pragmatic, programmer, craftsmanship, mentality, developer, principles, shy code, dry, testing, ask why, document your work
 description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.
 ---
 
