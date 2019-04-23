@@ -9,7 +9,7 @@
             <strong>personally</strong> selected weekly favourite links to your email. 👌
           </p>
           <p>#WebDev #JavaScript
-            <br>#Craftmanship #Entrepreneurship
+            <br>#craftsmanship #Entrepreneurship
           </p>
         </div>
         <v-layout column>
