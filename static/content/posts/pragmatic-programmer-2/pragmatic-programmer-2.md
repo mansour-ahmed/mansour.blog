@@ -11,9 +11,9 @@ You can find the intro to the post series [here](/on-being-a-pragmatic-programme
 
 **Disclaimer**
 
-In an attempt to be a better programmer, the following points are merely my own notes and learnings, for myself, that I found helpful for me to be better at what I do. I am by no means perfect, I am good at somethings and bad at others.
+In an attempt to be a better programmer, the following points are merely my own notes and learnings, for myself, that I found helpful for me to be better at what I do. I am by no means perfect, I am good at some things and bad at others.
 
-I share these notes in hope that somebody would find them helpful in their own journey of becoming better at their craft.
+I share these notes in hope that somebody would find them helpful in their own journey becoming better at their craft.
 
 # Organization
 
@@ -65,13 +65,15 @@ Degrees of Freedom - The Specification Trap -->
 
 > Automation is an essential component of every project team.
 
-As a programmer, I think one of the most valuable things I can bring to a project is automating as much as possible of my work. There are a couple of benefits for automation here.
+Most businesses have two kind of work. First one is the work needed to **operate** the current system and run the daily business operations. Second one is the work needed to **improve** the current system and the daily operations.
+
+As a programmer, I think one of the most valuable things I can bring to a project is automating as much as possible of my work. This is especially valuable to the operative kind of tasks. There are a couple of benefits for automation here.
 
 First, through automation I am able to encapsulate part of my know-how of a given process. I only need to figure out a solution to a problem once and then write some script to do it. This can be really valuable to businesses as they would get reproducible solutions that can be used even after I am long gone from the project.
 
-Second, automating away repeated tasks means I am free! I am free to tackle the more challenging, fun, problems. This way my life is more interesting at work. Also it takes away some of the stress when dealing with critical things such as deployments. Instead of counting on me remembering to follow the process exactly when I am tired at the end of my work day, I can simply just let the beautiful automated pipeline handle it for me. Good for my health, good for the team, good for the business!
+Second, automating away repeated operative tasks means I am free! I am free to tackle the more challenging, fun, problems. The kind of problems that **improve** the system. This way my life is more interesting at work. Also it takes away some of the stress when dealing with critical things such as deployments. Instead of counting on me remembering to follow the process exactly when I am tired at the end of my work day, I can simply just let the beautiful automated pipeline handle it for me. Good for my health, good for the team, good for the business!
 
-Automation is very powerful. Reoccurring routine tasks are always part of my work routine. So there is always room for automating more! Of course I need to know where to draw the line and where it is an overkill, but overall looking for opportunities to automate things really pays off.
+Automation is very powerful. Reoccurring routine operative tasks are always part of my work routine. So there is always room for automating more! Of course I need to know where to draw the line and where it is an overkill, but overall looking for opportunities to automate things really pays off.
 
 Takeaway: **Automate as much as you can!**
 

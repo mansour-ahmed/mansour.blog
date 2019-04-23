@@ -11,7 +11,10 @@ There is a great joy in being good at your craft.
 
 Almost accidentally, I made an observation about myself. I really **enjoy** doing things that I feel like I am good at. I get a sense of joy from doing these things as well as I can. So purely for happiness reasons, I started my journey on adopting a craftsmanship mentality.
 
-There is a Japanese concept called **kaizen**. The concept emphasizes the continuous improvement of a system by eliminating what is called **muda** (waste) through a lot of very small changes.
+<p id="kaizen">
+There is a Japanese concept called <strong>kaizen</strong>. The concept emphasizes the continuous improvement of a system by eliminating what is called <strong>muda</strong> (waste) through a lot of very small changes.
+</p>
+
 
 I aim to follow this concept to be a little bit better day-by-day that I can ultimately be closer to the best version of myself.
 
