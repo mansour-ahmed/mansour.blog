@@ -1,12 +1,21 @@
 <template>
   <Layout>
-    <div class="about-container" v-html="$page.pageData.content"></div>
+    <div class="about-container content-box">
+      <g-image
+        alt="Ahmed Mansour proflile Picture."
+        src="~/assets/images/author.png"
+        width="180"
+        height="180"
+        class="profile-img"
+      />
+      <div v-html="$page.pageData.content"></div>
+    </div>
   </Layout>
 </template>
 
 <page-query>
 query About {
-  pageData: pages(path: "/static/content/pages/about") {
+  pageData: pages(path: "/content/pages/about") {
     content
     title
     description
@@ -72,9 +81,15 @@ export default {
 
 <style lang="scss" scoped>
 .about-container {
-  /deep/ img {
-    width: 34rem;
-    max-width: 100%;
+  .profile-img {
+    width: 10rem;
+    border-radius: 50%;
+    margin: 2rem auto;
+    display: block;
+  }
+
+  .profile-image-container {
+    text-align: center;
   }
 }
 </style>

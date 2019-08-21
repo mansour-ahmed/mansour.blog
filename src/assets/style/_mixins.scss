@@ -1,0 +1,135 @@
+@mixin breakpoint($point) {
+  /*==========  Mobile First Method  ==========*/
+  @if $point==xs {
+    @media only screen and (min-width: var(--xs-min)) {
+      @content;
+    }
+  } @else if $point==sm {
+    @media only screen and (min-width: var(--sm-min)) {
+      @content;
+    }
+  } @else if $point==footer {
+    // exceptional dimensions for footer
+    @media only screen and (min-width: 960px) {
+      @content;
+    }
+  } @else if $point==md {
+    @media only screen and (min-width: var(--md-min)) {
+      @content;
+    }
+  } @else if $point==lg {
+    @media only screen and (min-width: var(--lg-min)) {
+      @content;
+    }
+  } @else if $point==xl {
+    @media only screen and (min-width: var(--xl-min)) {
+      @content;
+    }
+  }
+}
+
+@mixin textColor($color) {
+  .h1,
+  .h2,
+  .h3,
+  .p,
+  p,
+  .h4,
+  .h6,
+  .mat-button {
+    color: $color;
+  }
+}
+
+@mixin darkenBKColor($color) {
+  background-color: darken($color, 5%);
+}
+
+// =============================================================================
+// @desc Abstracts the index function to find the z-index of a specific element in a z-index stack
+// @params:
+// $stack: the z-index stack defined inside z-indexes file
+// $el: the element inside that specific stack which is also definied inside z-indexes file
+// Usage example:
+// z-index: z($body, header);
+// =============================================================================
+
+@function z($stack, $el) {
+  @return index($stack, $el);
+}
+
+@function aspect-ratio-perct($a, $b) {
+  @return $b / ($a / 100%);
+}
+
+@mixin aspect-ratio($arglist... /*$ratio or $width, $height*/) {
+  $map: keywords($arglist);
+  $height: map-get($map, height) or nth-value($arglist, 2);
+  $width: map-get($map, width) or nth-value($arglist, 1);
+  $ratio: map-get($map, ratio) or
+    if($width and $height, $width/$height, nth-value($arglist, 1)) or 1;
+  $padding: 1 / $ratio * 100%;
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+    width: 1px;
+    margin-left: -1px;
+  }
+  &::before {
+    float: left;
+    padding-bottom: $padding;
+  }
+}
+
+// Helper function
+// Return null rather than throwing an error if index is outside list range.
+@function nth-value($list, $index) {
+  @return if(length($list) >= $index, nth($list, $index), null);
+}
+
+// =============================================================================
+// Font Face
+// Usage example :
+// @include font-face(Samplinal, fonts/Samplinal, 500, normal, eot woff2 woff);
+// =============================================================================
+
+@mixin font-face(
+  $name,
+  $path,
+  $weight: null,
+  $style: null,
+  $exts: eot woff2 woff ttf svg
+) {
+  $src: null;
+  $extmods: (
+    eot: '?',
+    svg: '#' + str-replace($name, ' ', '_')
+  );
+  $formats: (
+    otf: 'opentype',
+    ttf: 'truetype'
+  );
+
+  @each $ext in $exts {
+    $extmod: if(
+      map-has-key($extmods, $ext),
+      $ext + map-get($extmods, $ext),
+      $ext
+    );
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append(
+      $src,
+      url(quote($path + '.' + $extmod)) format(quote($format)),
+      comma
+    );
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+  }
+}

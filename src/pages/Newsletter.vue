@@ -8,7 +8,7 @@
 
 <page-query>
 query Newsletter {
-  pageData: pages(path: "/static/content/pages/newsletter") {
+  pageData: pages(path: "/content/pages/newsletter") {
     content
     title
     description

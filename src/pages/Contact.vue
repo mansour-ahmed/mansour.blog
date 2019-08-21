@@ -6,7 +6,7 @@
 
 <page-query>
 query Contact {
-  pageData: pages(path: "/static/content/pages/contact") {
+  pageData: pages(path: "/content/pages/contact") {
     content
     title
     description

@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400, 600');
+
+html {
+  font-size: var(--base-font-size);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  transition: color 0.6s;
+  color: var(--title-color);
+  margin: 2.75rem 0 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.802em;
+}
+
+h2 {
+  font-size: 1.602em;
+}
+
+h3 {
+  font-size: 1.424em;
+}
+
+h4 {
+  font-size: 1.266em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+small {
+  font-size: 0.8em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border-color);
+  padding-left: calc(var(--space) / 2);
+  color: var(--title-color);
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.25em;
+  margin-bottom: 1.25em;
+  li {
+    margin-bottom: 0.6em;
+  }
+}
+ol {
+  list-style-type: decimal;
+  margin-left: 1.25em;
+  margin-bottom: 1.25em;
+  li {
+    margin-bottom: 0.6em;
+  }
+}
+
+.semi-bold {
+  font-weight: var(--font-weight-medium);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.anchor-without-border {
+  border: none;
+  &:hover {
+    border: none;
+  }
+}
+
+// @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700');
+
+// html {
+//   font-size: var(--base-font-size);
+// }
+
+// body {
+//   font-family: 'Lora', sans-serif;
+//   font-weight: --font-weight-regular;
+//   line-height: 1.45;
+// }
+
+// p,
+// li {
+//   font-family: 'Lora', serif;
+// }
+
+// p {
+//   margin-bottom: 1.25rem;
+// }
+
+// h1,
+// .h1,
+// h2,
+// .h2,
+// h3,
+// .h3,
+// h4,
+// .h4,
+// h5,
+// .h5 {
+//   transition: color 0.6s;
+//   color: var(--title-color);
+//   margin: 2.75rem 0 1rem;
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: --font-weight-medium;
+//   line-height: 1.15;
+// }
+
+// h1 {
+//   margin-top: 0;
+//   font-size: 2rem;
+// }
+
+// h2 {
+//   font-size: 1.8rem;
+// }
+
+// h3 {
+//   font-size: 1.5rem;
+// }
+
+// h4 {
+//   font-size: 1.4rem;
+// }
+
+// h5 {
+//   font-size: 1.2rem;
+// }
+
+// a,
+// p,
+// li {
+//   font-size: 1.2rem;
+//   line-height: 1.4;
+// }
+
+// small {
+//   font-size: 1rem;
+// }
+
+// strong {
+//   font-weight: --font-weight-medium;
+// }
+
+// blockquote {
+//   border-left: 4px solid var(--border-color);
+//   padding-left: calc(var(--space) / 2);
+//   color: var(--title-color);
+// }
+
+// // blockquote {
+// //   $quote-spacing: 1rem;
+// //   $icons-color: $blue;
+// //   $font-size: 2.2rem;
+
+// //   margin: 3rem 0;
+
+// //   padding: $quote-spacing / 2 $quote-spacing;
+// //   border-left: 0.2rem solid $icons-color;
+// //   font-size: $font-size;
+
+// //   p {
+// //     font-size: $font-size;
+// //     margin: 0;
+// //     font-style: italic;
+// //     &:before,
+// //     &:after {
+// //       color: $icons-color;
+// //       font-size: 1.5rem;
+// //       padding: 0;
+// //     }
+// //     &:before {
+// //       font-size: $font-size;
+// //       content: "\201C";
+// //       padding-right: $quote-spacing / 2;
+// //     }
+// //     &:after {
+// //       font-size: $font-size;
+// //       padding-left: $quote-spacing / 2;
+// //       content: "\201D";
+// //     }
+// //   }
+// // }
+
+// em {
+//   font-style: italic;
+// }
+
+// ul {
+//   list-style-type: disc;
+//   margin-left: 1.25rem;
+//   margin-bottom: 1.25rem;
+//   li {
+//     margin-bottom: 0.6rem;
+//   }
+// }
+// ol {
+//   list-style-type: decimal;
+//   margin-left: 1.25rem;
+//   margin-bottom: 1.25rem;
+//   li {
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+// .semi-bold {
+//   font-weight: --font-weight-medium;
+// }
+
+// html {
+//   font-size: var(--base-font-size);
+// }
+
+// body {
+//   font-family: 'Lora', sans-serif;
+//   font-weight: --font-weight-regular;
+//   line-height: 1.45;
+// }
+
+// p,
+// li {
+//   font-family: 'Lora', serif;
+// }
+
+// p {
+//   margin-bottom: 1.25rem;
+// }
+
+// h1,
+// .h1,
+// h2,
+// .h2,
+// h3,
+// .h3,
+// h4,
+// .h4,
+// h5,
+// .h5 {
+//   transition: color 0.6s;
+//   color: var(--title-color);
+//   margin: 2.75rem 0 1rem;
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: --font-weight-medium;
+//   line-height: 1.15;
+// }
+
+// h1,
+// .h1 {
+//   margin-top: 0;
+//   font-size: 2.8rem;
+// }
+
+// h2,
+// .h2 {
+//   font-size: 2.4rem;
+// }
+
+// h3,
+// .h3 {
+//   font-size: 2rem;
+// }
+
+// h4,
+// .h4 {
+//   font-size: 1.6rem;
+// }
+
+// h5,
+// .h5 {
+//   font-size: 1.2rem;
+// }
+
+// a,
+// p,
+// li {
+//   font-size: 1.6rem;
+//   line-height: 1.5;
+// }
+
+// small {
+//   font-size: 1rem;
+// }
+
+// strong {
+//   font-weight: --font-weight-medium;
+// }
+
+// blockquote {
+//   border-left: 4px solid var(--border-color);
+//   padding-left: calc(var(--space) / 2);
+//   color: var(--title-color);
+// }
+
+// // blockquote {
+// //   $quote-spacing: 1rem;
+// //   $icons-color: $blue;
+// //   $font-size: 2.2rem;
+
+// //   margin: 3rem 0;
+
+// //   padding: $quote-spacing / 2 $quote-spacing;
+// //   border-left: 0.2rem solid $icons-color;
+// //   font-size: $font-size;
+
+// //   p {
+// //     font-size: $font-size;
+// //     margin: 0;
+// //     font-style: italic;
+// //     &:before,
+// //     &:after {
+// //       color: $icons-color;
+// //       font-size: 1.5rem;
+// //       padding: 0;
+// //     }
+// //     &:before {
+// //       font-size: $font-size;
+// //       content: "\201C";
+// //       padding-right: $quote-spacing / 2;
+// //     }
+// //     &:after {
+// //       font-size: $font-size;
+// //       padding-left: $quote-spacing / 2;
+// //       content: "\201D";
+// //     }
+// //   }
+// // }
+
+// em {
+//   font-style: italic;
+// }
+
+// ul {
+//   list-style-type: disc;
+//   margin-left: 1.25rem;
+//   margin-bottom: 1.25rem;
+//   li {
+//     margin-bottom: 0.6rem;
+//   }
+// }
+// ol {
+//   list-style-type: decimal;
+//   margin-left: 1.25rem;
+//   margin-bottom: 1.25rem;
+//   li {
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+// .semi-bold {
+//   font-weight: --font-weight-medium;
+// }

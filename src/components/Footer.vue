@@ -1,6 +1,14 @@
 <template>
-  <div>
-    <NewsletterShortForm v-if="showNewsletterForm"/>
+  <footer class="footer">
+    <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
+    <span class="footer__links">
+      Powered by
+      <a href="//gridsome.org">Gridsome</a>
+    </span>
+
+    <div class="footer-element"></div>
+  </footer>
+  <!-- <div>
     <div class="footer-container py-4 py-3">
       <div class="content-center">
         <div class="headline font-weight-bold text-xs-center">Ahmed Mansour</div>
@@ -25,39 +33,38 @@
         </v-layout>
       </div>
     </div>
-  </div>
+  </div>-->
 </template>
 
 <script>
-import NewsletterShortForm from "~/components/NewsletterShortForm";
-
 export default {
-  components: {
-    NewsletterShortForm
-  },
   data() {
     return {
       linkedinUrl: require("@/assets/images/linkedin.svg"),
       twitterUrl: require("@/assets/images/twitter.svg"),
-      githubUrl: require("@/assets/images/github.svg"),
-      showNewsletterForm: true
+      githubUrl: require("@/assets/images/github.svg")
     };
-  },
-  created() {
-    const routesWithNoNewsletter = ["/newsletter", "/contact"];
-    const currentRoute = this.$route.path;
-    if (routesWithNoNewsletter.includes(currentRoute)) {
-      this.showNewsletterForm = false;
-    }
   }
 };
 </script>
 
-<style scoped>
-.footer-container {
-  background-color: #eaeded;
-}
-a {
+<style lang="scss" scoped>
+/* a {
   border: none;
+} */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--space) / 2);
+  text-align: center;
+  font-size: 0.8em;
+  > span {
+    margin: 0 0.35em;
+  }
+  a {
+    color: currentColor;
+  }
 }
 </style>

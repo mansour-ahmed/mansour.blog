@@ -1,113 +1,131 @@
-<template >
+<template>
   <Layout>
-    <!-- <NewsletterPopup v-bind:dialog="dialogVisible" delay="30000"/> -->
-    <h1 v-if="$page.post">{{ $page.post.title }}</h1>
-    <div v-if="$page.post" class="h4 pb-3">Written by:
-      <g-link to="/about">{{ $page.post.author }}</g-link>
-      - {{ $page.post.date }}
+    <div class="post-title">
+      <h1 class="post-title__text">
+        {{ $page.post.title }}
+      </h1>
+      
+      <PostMeta :post="$page.post" />
+
     </div>
-    <div v-if="$page.post" v-html="$page.post.content"></div>
+    
+    <div class="post content-box">
+      <div class="post__header">
+        <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
+      </div>
+
+      <div class="post__content" v-html="$page.post.content" />
+
+      <div class="post__footer">
+        <PostTags :tags="$page.post.tags" />
+      </div>
+    </div>
+
+    <div class="post-comments">
+      <!-- Add comment widgets here -->
+    </div>
+
+    <Author class="post-author" />
   </Layout>
 </template>
 
+<script>
+import PostMeta from '~/components/PostMeta'
+import PostTags from '~/components/PostTags'
+import Author from '~/components/Author.vue'
+
+export default {
+  components: {
+    Author,
+    PostMeta,
+    PostTags
+  },
+  metaInfo () {
+    return {
+      title: this.$page.post.title,
+      meta: [
+        {
+          name: 'description',
+          content: this.$page.post.description
+        }
+      ]
+    }
+  }
+}
+</script>
+
 <page-query>
-query  Post ($path: String!) {
+query Post ($path: String!) {
   post: post (path: $path) {
     title
-    content
-    author
+    path
     date (format: "D. MMMM YYYY")
+    timeToRead
+    tags {
+      id
+      title
+      path
+    }
     description
-    keywords
+    coverImage (width: 860, blur: 10)
+    content
   }
 }
 </page-query>
 
-<script>
-import NewsletterPopup from "~/components/NewsletterPopup";
-export default {
-  components: {
-    NewsletterPopup
-  },
-  data() {
-    return {
-      dialogVisible: false
-    };
-  },
-  created() {
-    if (!this.$page.post) {
-      this.$router.push("404");
-    }
-  },
-  metaInfo() {
-    return {
-      title: this.$page.post.title,
-      link: [
-        {
-          key: "canonical",
-          rel: "canonical",
-          href: process.browser ? location.href : undefined
-        }
-      ],
-      meta: [
-        // @TODO refactor these into a function
-        {
-          key: "description",
-          name: "description",
-          content: this.$page.post.description
-        },
-        {
-          key: "keywords",
-          property: "keywords",
-          content: this.$page.post.keywords
-        },
-        { property: "og:title", content: this.$page.post.title },
-        {
-          key: "og:description",
-          property: "og:description",
-          content: this.$page.post.description
-        },
-        {
-          key: "og:type",
-          property: "og:type",
-          content: "article"
-        },
-        {
-          key: "og:url",
-          property: "og:url",
-          content: process.browser ? location.href : undefined
-        },
-        {
-          key: "twitter:text:title",
-          property: "twitter:text:title",
-          content: this.$page.post.title
-        },
-        {
-          key: "twitter:card",
-          property: "twitter:card",
-          content: "summary"
-        },
-        {
-          key: "article:published_time",
-          name: "article:published_time",
-          content: this.$page.post.date
-        }
-      ]
-    };
-  }
-};
-</script>
-
-<style lang="scss" scoped>
-/deep/ .g-image {
-  max-width: 100%;
+<style lang="scss">
+.post-title {
+  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  text-align: center;
 }
 
-/deep/ .hljs {
-  padding: 1.6rem;
-  margin: 2rem 0;
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.07);
-  border-radius: 4px;
-  font-size: 150%;
+.post {
+
+  &__header {
+    width: calc(100% + var(--space) * 2);
+    margin-left: calc(var(--space) * -1);
+    margin-top: calc(var(--space) * -1);
+    margin-bottom: calc(var(--space) / 2);
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+    
+    img {
+      width: 100%;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &__content {
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    p:first-of-type {
+      font-size: 1.2em;
+      color: var(--title-color);
+    }
+
+    img {
+      width: calc(100% + var(--space) * 2);
+      margin-left: calc(var(--space) * -1);
+      display: block;
+      max-width: none;
+    }
+  }
+}
+
+.post-comments {
+  padding: calc(var(--space) / 2);
+  
+  &:empty {
+    display: none;
+  }
+}
+
+.post-author {
+  margin-top: calc(var(--space) / 2);
 }
 </style>

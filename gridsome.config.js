@@ -6,43 +6,68 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Ahmed Mansour",
-  siteUrl: "https://ahmedmansour.me/",
+  siteName: 'Ahmed Mansour Blog',
+  siteUrl: 'https://mansour.blog/',
   siteDescription:
     "Ahmed Mansour's website. Ahmed is a software engineer, professional trainer and entrepreneur living in Helsinki Finland",
-  titleTemplate: "%s - Ahmed Mansour",
+  titleTemplate: '%s - Ahmed Mansour',
   transformers: {
     remark: {
-      externalLinksTarget: "_blank",
-      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
-      anchorClassName: "icon icon-link",
-      plugins: ["remark-highlight.js"]
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      internalLinksTarget: '_blank',
+      anchorClassName: 'icon icon-link',
+      plugins: ['@gridsome/remark-prismjs']
     }
   },
   plugins: [
     {
-      use: "@gridsome/source-filesystem",
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
       options: {
-        path: "static/content/posts/**/*.md",
-        typeName: "Post",
-        route: "/:slug"
+        typeName: 'Post',
+        path: 'content/posts/*.md',
+        route: '/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: '/tag/:id',
+            create: true
+          }
+        }
       }
     },
     {
-      use: "@gridsome/source-filesystem",
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
       options: {
-        path: "static/content/pages/*.md",
-        typeName: "Pages"
+        typeName: 'Book',
+        path: 'content/books/*.md',
+        refs: {
+          tags: {
+            typeName: 'BookTag',
+            route: 'bookshelf/:id',
+            create: true
+          }
+        }
       }
     },
     {
-      use: "@gridsome/plugin-google-analytics",
+      use: '@gridsome/source-filesystem',
       options: {
-        id: "UA-74640828-2"
+        path: 'content/pages/*.md',
+        typeName: 'Pages'
       }
     },
     {
-      use: "@gridsome/plugin-sitemap"
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-74640828-2'
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap'
     }
-  ]
+  ],
 };
