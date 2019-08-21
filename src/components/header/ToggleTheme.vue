@@ -72,7 +72,7 @@ export default {
   background-color: transparent;
   border: 0;
   color: var(--body-color);
-  height: 1.75rem;
+  height: 1.25rem;
 
   cursor: pointer;
 
