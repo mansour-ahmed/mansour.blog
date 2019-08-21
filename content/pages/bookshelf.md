@@ -5,4 +5,4 @@ keywords: entrepreneur, books, bookshelf, recommendations, technical, non-techni
 description: Ahmed Mansour's bookshelf. Here you can find all the books I read and my personal notes. The books are arranged by rating from the most recommended to the least recommended.  
 ---
 
-Here you can find all the books I read and my personal notes. The books are arranged by rating from the most recommended to the least recommended.  
+***Here you can find all the books I read and my personal notes. The books are arranged by rating from the most recommended to the least recommended.***

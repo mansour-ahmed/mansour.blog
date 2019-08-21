@@ -29,7 +29,7 @@ Following this principle makes sure more modular code is born.
 
 Takeaway: **Write shy code.**
 
-## DRY nad Reusability By Design
+## DRY and Reusability By Design
 
 [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Don't repeat yourself) needs no introduction. It is a principle that is likely familiar to many.
 
