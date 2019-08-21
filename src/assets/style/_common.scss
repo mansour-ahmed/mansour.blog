@@ -1,3 +1,5 @@
+@import 'mixins';
+
 .theme--light.application,
 .theme--dark.application {
   background: inherit;
@@ -44,8 +46,14 @@ body {
 .content-center {
   max-width: var(--content-width);
   margin: 0 auto;
-  padding-left: 3.4rem;
-  padding-right: 3.4rem;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include breakpoint('md') {
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+  }
 }
 
 hr {

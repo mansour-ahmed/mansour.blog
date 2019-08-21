@@ -14,11 +14,19 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~/assets/style/_mixins.scss";
+
 .post-tags {
   margin: 1em 0 0;
 
   &__link {
     margin-right: 0.7em;
+    margin-top: 0, 7em;
+
+    @include breakpoint("md") {
+      margin-top: 0;
+    }
+
     font-size: 0.8em;
     color: currentColor;
     border: none !important; // @TODO : remove important;

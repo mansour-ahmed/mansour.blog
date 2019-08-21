@@ -33,6 +33,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/assets/style/_mixins.scss";
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -54,6 +56,11 @@ export default {
       border: none !important; // @TODO : remove important;
       font-weight: 300;
       text-transform: uppercase;
+    }
+
+    display: none;
+    @include breakpoint("md") {
+      display: block;
     }
   }
 

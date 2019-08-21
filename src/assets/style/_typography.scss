@@ -1,3 +1,4 @@
+@import 'mixins';
 @import url('https://fonts.googleapis.com/css?family=Poppins:400, 600');
 
 html {
@@ -29,23 +30,38 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 1.802em;
+  font-size: 1.6em;
+  @include breakpoint('md') {
+    font-size: 1.802em;
+  }
 }
 
 h2 {
-  font-size: 1.602em;
+  font-size: 1.402em;
+  @include breakpoint('md') {
+    font-size: 1.602em;
+  }
 }
 
 h3 {
-  font-size: 1.424em;
+  font-size: 1.224em;
+  @include breakpoint('md') {
+    font-size: 1.424em;
+  }
 }
 
 h4 {
-  font-size: 1.266em;
+  font-size: 1.166em;
+  @include breakpoint('md') {
+    font-size: 1.266em;
+  }
 }
 
 h5 {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  @include breakpoint('md') {
+    font-size: 0.9em;
+  }
 }
 
 small {

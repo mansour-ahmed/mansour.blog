@@ -26,7 +26,7 @@
               <input type="text" name="b_c0188f6ed9bd9585764367b2b_937f45c9bf" tabindex="-1" value />
             </div>
           </v-flex>
-          <v-flex xs12 offset-xs1 md6>
+          <v-flex xs12 offset-sm1 md6>
             <v-btn type="submit" :disabled="!valid" depressed color="primary">Get Updates From Ahmed</v-btn>
           </v-flex>
         </v-layout>
@@ -54,11 +54,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.content-center {
-  padding-left: 4.8rem;
-  padding-right: 4.8rem;
-  max-width: var(--content-width);
-}
-</style>
