@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       drawer: null,
-      navLinks: ["work-with-me", "bookshelf", "about", "contact", "newsletter"]
+      navLinks: ["work-with-me", "newsletter", "about", "bookshelf", "contact"]
     };
   }
 };
