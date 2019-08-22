@@ -4,6 +4,8 @@
       <div v-html="$page.pageData.content"></div>
     </div>
 
+    <TagsList :tags="$page.tags.edges" :type="'book'" />
+
     <BookCard :book="book" v-for="book in $page.books.edges" :key="book.node.id" />
   </Layout>
 </template>
@@ -34,16 +36,25 @@
     description
     keywords
   }
+    tags: allBookTag(sortBy:"title", order:ASC) {
+    edges {
+      node {
+        id
+        title
+        path 
+      }
+    }
+  }
 }
 </page-query>
 
 <script>
-// import PostTags from "~/components/PostTags";
 import BookCard from "~/components/BookCard";
+import TagsList from "~/components/TagsList";
 
 export default {
   components: {
-    // PostTags,
+    TagsList,
     BookCard
   },
   metaInfo() {

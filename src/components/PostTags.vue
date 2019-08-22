@@ -1,8 +1,13 @@
 <template>
   <div class="post-tags">
-    <g-link class="post-tags__link" v-for="tag in tags" :key="tag.id" :to="tag.path">
+    <g-link
+      class="post-tags__link"
+      v-for="tag in tags"
+      :key="tag.id || tag.node.id"
+      :to="tag.path || tag.node.path"
+    >
       <span>#</span>
-      {{ tag.title }}
+      {{ tag.title || tag.node.title }}
     </g-link>
   </div>
 </template>
@@ -18,14 +23,14 @@ export default {
 
 .post-tags {
   margin: 1em 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   &__link {
     margin-right: 0.7em;
-    margin-top: 0, 7em;
-
-    @include breakpoint("md") {
-      margin-top: 0;
-    }
+    margin-top: 0.7em;
+    display: flex;
 
     font-size: 0.8em;
     color: currentColor;
