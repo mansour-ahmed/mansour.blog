@@ -5,6 +5,7 @@ date: 2019-01-21
 published: true
 tags: ['Books', 'Book Summary']
 author: Ahmed Mansour
+cover_image: ./images/marie-kondo.png
 keywords: marie, kondo, tidying up, book, summary, ahmed, mansour, japanese
 description: Summary of The Life-Changing Magic of Tidying Up - The Japanese Art of Decluttering and Organizing by Marie Kondo.
 ---

@@ -2,6 +2,7 @@
 slug: lessons-learnt-from-steve-jobs
 title: Lessons learnt from Steve Jobs
 date: 2019-02-24
+cover_image: ./images/steve-jobs-book.jpeg
 author: Ahmed Mansour
 published: true
 tags: ['Books', 'Steve Jobs', 'Entrepreneurship']

@@ -3,7 +3,8 @@ slug: books-and-the-importance-of-timing
 title: Books and the importance of timing
 date: 2019-01-30
 published: true
-tags: ['Books', 'Thoughts']
+tags: ['Books', 'Opinions']
+cover_image: ./images/books-importance-of-timing.jpg
 author: Ahmed Mansour
 keywords: just in time, knowledge,read, smartly, developer, craftsman mentality, deep work, high performant, learning, new, skill.
 description: The power of just in time knowledge and what to focus on when learning new things.
