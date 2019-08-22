@@ -4,9 +4,10 @@
       <div class="text-xs-center">
         <h1>Hello there 👋</h1>
         <p>
-          Get
-          <strong>personally</strong> selected weekly favourite links to your email. 👌
+          Join hundreds of people and get
+          <span class="highlight">exclusive updates</span> from me directly to your email. 👌
         </p>
+
         <p>
           #WebDev #JavaScript
           <br />#craftsmanship #Entrepreneurship
@@ -54,7 +55,7 @@
           >Subscribe me now</v-btn>
         </v-form>
       </v-layout>
-      <small>* I follow a simple principle - I will treat you the way I would like to be treated.</small>
+      <small>* NO SPAM EVER - I follow a simple principle - I will treat you the way I would like to be treated.</small>
     </v-container>
   </div>
 </template>

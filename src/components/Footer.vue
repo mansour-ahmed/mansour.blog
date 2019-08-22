@@ -1,39 +1,22 @@
 <template>
   <footer class="footer">
+    <div class="footer-element">
+      <a href="https://www.linkedin.com/in/ahmedmansour03/" target="_blank">
+        <g-image class="pr-4 social-img" alt="Linkedin Profile" :src="linkedinUrl" />
+      </a>
+      <a href="https://github.com/mansour-ahmed/" target="_blank">
+        <g-image class="pr-4 social-img" alt="Github Profile" :src="githubUrl" />
+      </a>
+      <a href="https://twitter.com/AhmedMansour03/" target="_blank">
+        <g-image class="pr-4 social-img" alt="Twitter Profile" :src="twitterUrl" />
+      </a>
+    </div>
     <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
     <span class="footer__links">
       Powered by
       <a href="//gridsome.org">Gridsome</a>
     </span>
-
-    <div class="footer-element"></div>
   </footer>
-  <!-- <div>
-    <div class="footer-container py-4 py-3">
-      <div class="content-center">
-        <div class="headline font-weight-bold text-xs-center">Ahmed Mansour</div>
-        <v-layout justify-center align-start pt-3 row>
-          <a
-            class="anchor-without-border"
-            href="https://www.linkedin.com/in/ahmedmansour03/"
-            target="_blank"
-          >
-            <g-image class="pr-4" alt="Linkedin Profile" :src="linkedinUrl" width="50"/>
-          </a>
-          <a class="anchor-without-border" href="https://github.com/mansour-ahmed/" target="_blank">
-            <g-image class="pr-4" alt="Github Profile" :src="githubUrl" width="50"/>
-          </a>
-          <a
-            class="anchor-without-border"
-            href="https://twitter.com/AhmedMansour03/"
-            target="_blank"
-          >
-            <g-image class="pr-4" alt="Twitter Profile" :src="twitterUrl" width="50"/>
-          </a>
-        </v-layout>
-      </div>
-    </div>
-  </div>-->
 </template>
 
 <script>
@@ -56,6 +39,7 @@ export default {
 .footer {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   padding: calc(var(--space) / 2);
   text-align: center;
@@ -65,6 +49,20 @@ export default {
   }
   a {
     color: currentColor;
+  }
+}
+.footer-element {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: row;
+  a {
+    border-bottom: none;
+  }
+  .social-img {
+    width: 3.5rem;
+    /deep/ svg {
+      fill: currentColor;
+    }
   }
 }
 </style>

@@ -9,11 +9,11 @@
       blur="5"
     />
 
-    <h1 v-if="showTitle" class="author__site-title">{{ $static.metaData.siteName }}</h1>
+    <h1 v-if="showTitle" class="author__site-title">Hi. I'm Ahmed.</h1>
 
     <p
       class="author__intro"
-    >Web developments, entrepreneurship & the pursue of becoming a better human being.</p>
+    >I am an entrepreneur, web developer & coding instructor. I write about web developments, entrepreneurship & the pursuit of becoming a better human being.</p>
 
     <a href="https://twitter.com/AhmedMansour03/">Follow me on Twitter</a>
   </div>

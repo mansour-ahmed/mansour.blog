@@ -13,7 +13,7 @@
       <p>Some of the things I can help you with...</p>
       <ul>
         <li>Conference Speaking 🎤</li>
-        <li>Workshops/Trainings 👨‍🏫</li>
+        <li>Workshops/Coding Training 👨‍🏫</li>
         <li>Project Work 🏋️</li>
       </ul>
 
