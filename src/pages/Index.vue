@@ -1,37 +1,52 @@
 <template>
-  <Layout>
-    <div class="text-xs-center" v-html="$page.pageData.content"></div>
-    <v-list pa-2 v-for="(year, index) in  getYears(postsPerYear)" :key="index">
-      <h3 class="light year">{{ year }}</h3>
-      <v-layout pb-4 align-center v-for="post in postsPerYear[year]" :key="post.id">
-        <v-flex xs4 md2>
-          <h4 class="semi-bold month">{{ formatPostDate(post.date) }}.</h4>
-        </v-flex>
-        <v-flex xs8 md10>
-          <g-link class="h4 light anchor-without-border" :to="'/' + post.slug">{{ post.title }}</g-link>
-        </v-flex>
-      </v-layout>
-    </v-list>
+  <Layout :show-logo="false">
+    <!-- Author intro -->
+    <Author :show-title="true" />
+    <TagsList :tags="$page.tags.edges" :type="'post'" />
+    <!-- List posts -->
+    <div class="posts">
+      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
+    </div>
   </Layout>
 </template>
 
 <page-query>
-query Articles {
-  pageData: pages(path: "/static/content/pages/home") {
+ {
+    pageData: pages(path: "/content/pages/home") {
     content
     title
     description
     keywords
   }
-  allPost {
-    totalCount
+  posts: allPost(filter: { published: { eq: true }}) {
     edges {
       node {
         id
         title
-        slug
         path
-        date
+        tags {
+          id
+          title
+          path
+        }
+        date (format: "D. MMMM YYYY")
+        timeToRead
+        cover_image (width: 860, blur: 10)
+        description
+        ...on Post {
+            id
+            title
+            path
+        }
+      }
+    }
+  }
+  tags: allTag(sortBy:"title", order:ASC) {
+    edges {
+      node {
+        id
+        title
+        path 
       }
     }
   }
@@ -39,46 +54,15 @@ query Articles {
 </page-query>
 
 <script>
-import { format, getYear } from "date-fns";
+import Author from "~/components/Author.vue";
+import PostCard from "~/components/PostCard.vue";
+import TagsList from "~/components/TagsList.vue";
 
 export default {
-  data() {
-    return {
-      articleYears: [],
-      postsPerYear: {}
-    };
-  },
-  computed: {
-    posts() {
-      return this.$page.allPost.edges;
-    },
-    totalCount() {
-      return this.$page.allPost.totalCount;
-    }
-  },
-  methods: {
-    formatPostDate(date) {
-      return format(date, "DD MMM");
-    },
-    groupPostsPerYear() {
-      const groupedPosts = {};
-      this.$page.allPost.edges.map(postNode => {
-        const post = postNode.node;
-        const postYear = getYear(post.date);
-        if (groupedPosts[postYear]) {
-          groupedPosts[postYear].push(post);
-        } else {
-          groupedPosts[postYear] = [post];
-        }
-      });
-
-      return groupedPosts;
-    },
-    getYears(postsPerYear) {
-      const postsYears = Object.keys(postsPerYear);
-      const sortedYears = postsYears.sort((a, b) => b - a);
-      return sortedYears;
-    }
+  components: {
+    Author,
+    PostCard,
+    TagsList
   },
   metaInfo() {
     return {
@@ -130,19 +114,12 @@ export default {
         }
       ]
     };
-  },
-  mounted() {
-    this.postsPerYear = this.groupPostsPerYear();
   }
 };
 </script>
 
 <style lang="scss" scoped>
-.year {
-  padding-bottom: 1rem;
-}
-
-.month {
-  margin-bottom: 0;
+.post-tag {
+  margin: 1rem 0;
 }
 </style>

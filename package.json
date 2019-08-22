@@ -8,27 +8,24 @@
     "now-build": "gridsome build"
   },
   "dependencies": {
-    "gridsome": "^0.4.7"
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/remark-prismjs": "^0.1.0",
+    "@gridsome/source-filesystem": "^0.5.0",
+    "@gridsome/transformer-remark": "^0.3.2",
+    "gridsome": "^0.6.8"
   },
   "devDependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/plugin-sitemap": "^0.1.0",
-    "@gridsome/source-filesystem": "^0.2.0",
-    "@gridsome/transformer-remark": "^0.1.3",
+    "@gridsome/plugin-sitemap": "^0.2.1",
     "axios": "^0.18.0",
     "css-loader": "^2.1.0",
     "date-fns": "^1.30.1",
     "express": "^4.16.4",
     "node-sass": "^4.11.0",
-    "normalize.css": "^8.0.1",
     "path": "^0.12.7",
-    "remark-highlight.js": "^5.1.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
     "vue-axios": "^2.1.4",
-    "vue-material-design-icons": "^3.0.0",
+    "vue-material-design-icons": "^3.3.1",
     "vuetify": "^1.5.1",
     "webpack-node-externals": "^1.7.2"
   }

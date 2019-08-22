@@ -1,24 +1,23 @@
 <template>
   <div>
-    <v-card class="form-container pa-2 elv-1" max-width="500">
-      <v-container>
-        <h1 class="text-xs-center">Say Hello 🤙</h1>
+    <div class="form-container content-box">
+      <h1 class="text-xs-center">Say Hello 🤙</h1>
 
-        <p>I appreciate that you would like to get in touch with me.</p>
+      <p>I appreciate that you would like to get in touch with me.</p>
 
-        <p>
-          You can reach me on
-          <a href="mailto:ahmed@mansour.fi">ahmed@mansour.fi</a>
-        </p>
+      <p>
+        You can reach me on
+        <a href="mailto:ahmed@mansour.fi">ahmed@mansour.fi</a>
+      </p>
 
-        <p>Some of the things I can help you with...</p>
-        <ul>
-          <li>Conference Speaking 🎤</li>
-          <li>Workshops/Trainings 👨‍🏫</li>
-          <li>Project Work 🏋️</li>
-        </ul>
+      <p>Some of the things I can help you with...</p>
+      <ul>
+        <li>Conference Speaking 🎤</li>
+        <li>Workshops/Coding Training 👨‍🏫</li>
+        <li>Project Work 🏋️</li>
+      </ul>
 
-        <!-- <v-form v-model="valid">
+      <!-- <v-form v-model="valid">
           <v-layout column>
             <v-flex xs12>
               <v-text-field
@@ -62,9 +61,8 @@
             @click="submit"
           >Send to Ahmed</v-btn>
         </v-form>
-        <span v-show="responseMsg">{{ responseMsg }}</span>-->
-      </v-container>
-    </v-card>
+      <span v-show="responseMsg">{{ responseMsg }}</span>-->
+    </div>
   </div>
 </template>
 
@@ -127,6 +125,6 @@ export default {
 
 <style lang="scss" scoped>
 /deep/ .v-list__tile--link {
-  border-bottom: none;
+  border: none !important; // @TODO : remove important;
 }
 </style>

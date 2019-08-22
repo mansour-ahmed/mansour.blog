@@ -4,7 +4,7 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const nodeExternals = require("webpack-node-externals");
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = function(api) {
   api.loadSource(store => {
@@ -14,12 +14,7 @@ module.exports = function(api) {
       if (isServer) {
         config.externals([
           nodeExternals({
-            whitelist: [
-              /^vuetify/,
-              /^highlight.js/,
-              /^normalize.css/,
-              /^vue-material-design-icons/
-            ]
+            whitelist: [/^vuetify/, /^vue-material-design-icons/]
           })
         ]);
       }
