@@ -2,13 +2,13 @@
   <footer class="footer">
     <div class="footer-element">
       <a href="https://www.linkedin.com/in/ahmedmansour03/" target="_blank">
-        <g-image class="pr-4 social-img" alt="Linkedin Profile" :src="linkedinUrl" />
+        <g-image class="social-img" alt="Linkedin Profile" :src="linkedinUrl" />
       </a>
       <a href="https://github.com/mansour-ahmed/" target="_blank">
-        <g-image class="pr-4 social-img" alt="Github Profile" :src="githubUrl" />
+        <g-image class="social-img" alt="Github Profile" :src="githubUrl" />
       </a>
       <a href="https://twitter.com/AhmedMansour03/" target="_blank">
-        <g-image class="pr-4 social-img" alt="Twitter Profile" :src="twitterUrl" />
+        <g-image class="social-img" alt="Twitter Profile" :src="twitterUrl" />
       </a>
     </div>
     <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}.</span>
@@ -57,12 +57,14 @@ export default {
   flex-direction: row;
   a {
     border-bottom: none;
-  }
-  .social-img {
-    width: 3.5rem;
-    /deep/ svg {
-      fill: currentColor;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
     }
+  }
+
+  .social-img {
+    width: 1.5rem;
   }
 }
 </style>
