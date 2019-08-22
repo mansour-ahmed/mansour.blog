@@ -54,15 +54,15 @@ export default {
   },
   computed: {
     currentPath: function() {
-      return this.$route.path;
+      return this.$route.path.split("/").join("");
     },
     showUpperNewsletter: function() {
       const linksWithNoUpperNewsLetter = [
-        "/newsletter",
-        "/",
-        "/contact",
-        "/about",
-        "/work-with-me"
+        "newsletter",
+        "",
+        "contact",
+        "about",
+        "work-with-me"
       ];
       return !linksWithNoUpperNewsLetter.includes(this.currentPath);
     },
