@@ -3,7 +3,7 @@
     <v-navigation-drawer v-model="drawer" fixed temporary right width="180" height="100vh">
       <v-layout column py-3>
         <v-flex py-1 text-xs-center v-for="navLink in navLinks" :key="navLink">
-          <g-link class="nav-link anchor-without-border semi-bold" :to="'/' + navLink">
+          <g-link class="nav-link anchor-without-border " :to="'/' + navLink">
             <span class="nav-link-content">{{ navLink | normalize }}</span>
           </g-link>
         </v-flex>
