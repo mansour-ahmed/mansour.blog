@@ -4,7 +4,7 @@ title: How to learn any (human) language – The story of how I learnt Finnish.
 date: 2019-01-09
 author: Ahmed Mansour
 published: true
-tags: ['Language Learning', 'Finnish']
+tags: ['Language Learning']
 keywords: languages, learn, finnish, flashcards, fluent, forever
 description: How to master any language in under a year based on personal experience for free.
 ---

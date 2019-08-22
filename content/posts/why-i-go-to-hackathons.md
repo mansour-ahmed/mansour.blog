@@ -3,7 +3,7 @@ slug: why-i-go-to-hackathons-and-why-you-should-consider-going
 title: Why I go to hackathons and why you should consider going.
 date: 2018-01-01
 published: true
-tags: ['Hackathons']
+tags: ['Opinions']
 canonical_url: false
 author: Ahmed Mansour
 keywords: hackathons, opinion, Ahmed, Mansour, Developer, Helsinki, Finland, Innovation, Creativity, Developers
