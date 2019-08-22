@@ -2,6 +2,7 @@
   <Layout>
     <div class="about-container content-center">
       <div v-html="$page.pageData.content"></div>
+      The list have {{ $page.books.edges.length }} books.
     </div>
 
     <TagsList :tags="$page.tags.edges" :type="'book'" />
@@ -12,7 +13,7 @@
 
 <page-query>
 {
-  books: allBook(filter: { published: { eq: true }}) {
+  books: allBook(filter: { published: { eq: true }}, sortBy: "rating", perPage: 10000) {
     edges {
       node {
         id

@@ -2,11 +2,11 @@
   <div class="book-container content-box">
     <a :href="book.node.url" target="_blank">{{ book.node.title }} By {{ book.node.author }}</a>
     <PostTags class="book-tag" :tags="book.node.tags" />
-    <div>
+    <span class="book-heading">
       Read on
       <strong>{{ book.node.dateRead }}</strong>
-    </div>
-    <div>Rating: {{ book.node.rating }} / 10</div>
+    </span>
+    <span class="book-heading">Rating: {{ book.node.rating }} / 10</span>
     <div v-if="book.node.content.length" v-html="book.node.content"></div>
   </div>
 </template>
@@ -24,10 +24,20 @@ export default {
 
 <style lang="scss">
 .book-tag {
-  margin: 1rem 0;
+  margin: 0.25rem 0;
 }
 .book-container {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .book-heading {
+    padding-bottom: .5rem;
+    display:block;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
 </style>

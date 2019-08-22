@@ -1,7 +1,7 @@
 ---
 title: How to Write Seductive Web Copy - An Easy Guide to Picking Up More Customers
 author: Henneke Duistermaat 
-dateRead: 2019
+dateRead: 2019-01-14
 published: true
 rating: 9
 tags: ['Marketing', 'Communication']
