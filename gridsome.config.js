@@ -68,6 +68,53 @@ module.exports = {
     },
     {
       use: '@gridsome/plugin-sitemap'
+    },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        latest: true,
+        feedOptions: {
+          title: 'Ahmed Mansour Blog',
+          feed_url: 'https://mansour.blog/rss.xml',
+          site_url: 'https://mansour.blog'
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://mansour.blog/' + node.slug,
+          author: node.author,
+          date: node.date,
+          categories: node.tags
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml'
+        }
+      }
     }
-  ],
+    // {
+    //   use: 'gridsome-plugin-rss',
+    //   options: {
+    //     contentTypeName: 'Book',
+    //     feedOptions: {
+    //       title: 'Ahmed Mansour Blog',
+    //       feed_url: 'https://mansour.blog/rss.xml',
+    //       site_url: 'https://mansour.blog'
+    //     },
+    //     feedItemOptions: node => ({
+    //       title: node.title,
+    //       description: node.author,
+    //       url: 'https://mansour.blog/bookshelf#' + node.id,
+    //       author: node.author,
+    //       date: node.dateRead,
+    //       categories: node.tags
+    //     }),
+    //     output: {
+    //       dir: './static',
+    //       name: 'rss.xml'
+    //     }
+    //   }
+    // }
+  ]
 };
