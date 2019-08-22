@@ -1,6 +1,13 @@
 <template>
   <Layout>
     <div class="about-container content-box">
+      <g-image
+        alt="Ahmed Mansour proflile Picture."
+        src="~/assets/images/author.png"
+        width="180"
+        height="180"
+        class="profile-img"
+      />
       <div v-html="$page.pageData.content"></div>
     </div>
   </Layout>
@@ -75,5 +82,11 @@ export default {
 <style lang="scss" scoped>
 /deep/ strong {
   border-bottom: 2px solid var(--color-yellow);
+}
+.profile-img {
+  width: 10rem;
+  border-radius: 50%;
+  margin:0 auto 2rem;
+  display: block;
 }
 </style>
