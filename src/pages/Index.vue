@@ -31,7 +31,7 @@
         }
         date (format: "D. MMMM YYYY")
         timeToRead
-        coverImage (width: 860, blur: 10)
+        cover_image (width: 860, blur: 10)
         description
         ...on Post {
             id
