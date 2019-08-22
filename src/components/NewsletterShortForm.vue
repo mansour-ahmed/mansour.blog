@@ -2,9 +2,9 @@
   <div class="newsletter-container pb-4">
     <v-divider></v-divider>
     <div class="content-center">
-      <h4>Stay Updated</h4>
-      <p>#WebDev #JavaScript #Craftsmanship #Entrepreneurship</p>
-      <p>I still have a lot to learn, but I'm happy to share what I've learned along the way. If you are into these topics, then enter your email below.</p>
+      <h4 class="form-title">Stay Updated</h4>
+      <!-- <p>#WebDev #JavaScript #Craftsmanship #Entrepreneurship</p> -->
+      <p class="form-desc">Join hundreds of people and get <span class="highlight">exclusive updates</span> from me directly to your email.</p>
       <v-form
         v-model="valid"
         action="https://ahmedmansour.us7.list-manage.com/subscribe/post?u=c0188f6ed9bd9585764367b2b&amp;id=937f45c9bf"
@@ -54,3 +54,19 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+ hr {
+   margin-bottom: 0;
+ }
+ .form-title {
+   margin-top: 1rem;
+ }
+ .form-desc {
+   margin-bottom: 0.5rem;
+ }
+ .small {
+   margin-bottom: .5rem;
+   display:block;
+ }
+</style>

@@ -3,7 +3,7 @@
     <v-app :dark="darkTheme">
       <Header :darkTheme="darkTheme" />
       <main class="main">
-        <NewsletterShortForm v-if="showUpperNewsletter" />
+        <NewsletterShortForm class="upper-form" v-if="showUpperNewsletter" />
         <slot />
         <NewsletterShortForm v-if="showLowerNewsletter" />
       </main>
@@ -83,5 +83,10 @@ export default {
   margin: 0 auto;
   width: 100%;
   padding: 1.5vw 15px 0;
+}
+.upper-form {
+  hr {
+    margin: 0;
+  }
 }
 </style>
