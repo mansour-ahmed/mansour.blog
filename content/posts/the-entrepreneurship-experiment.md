@@ -2,7 +2,7 @@
 slug: the-entrepreneurship-experiment
 title: My Entrepreneurship Experiment
 date: 2019-12-24
-published: true
+published: false
 tags: ['Entrepreneurship', 'Personal Journey']
 author: Ahmed Mansour
 cover_image: 
