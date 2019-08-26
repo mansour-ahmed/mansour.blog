@@ -85,7 +85,7 @@ module.exports = {
           url: 'https://mansour.blog/' + node.slug,
           author: node.author,
           date: node.date,
-          categories: node.hashtags
+          categories: [node.hashtags]
         }),
         output: {
           dir: './static',
