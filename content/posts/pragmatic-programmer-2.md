@@ -5,7 +5,7 @@ date: 2019-03-25
 author: Ahmed Mansour
 published: true
 tags: ['Software Craftsmanship']
-hashtags: ['SoftwareCraftsmanship']
+hashtags: '#SoftwareCraftsmanship'
 cover_image: ./images/pragmatic-programmer-team.jpg
 keywords: pragmatic, programmer, craftsmanship, mentality, developer, organizations, teams, ways of working
 description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.

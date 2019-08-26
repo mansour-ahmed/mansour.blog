@@ -4,7 +4,7 @@ title: The Life-Changing Magic of Tidying Up - book summary
 date: 2019-01-21
 published: true
 tags: ['Books', 'Book Summary']
-hashtags: ['Books', 'BookSummary']
+hashtags: '#Books #BookSummary'
 author: Ahmed Mansour
 cover_image: ./images/marie-kondo.png
 keywords: marie, kondo, tidying up, book, summary, ahmed, mansour, japanese

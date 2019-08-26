@@ -5,7 +5,7 @@ date: 2018-01-05
 author: Ahmed Mansour
 published: true
 tags: ['Tutorial', 'Angular']
-hashtags: ['Tutorial', 'Angular']
+hashtags: '#Tutorial #Angular'
 keywords: Angular, Docker, Angular-cli, JavaScript, Optimizing, Runtime, build once run everywhere, Ahmed Mansour, Angular5, ng, Finland, Web Developer
 description: A tutorial on how to add custom config files with environment dependent variables to an angular app built with angular-cli on run time instead of build time.
 ---
