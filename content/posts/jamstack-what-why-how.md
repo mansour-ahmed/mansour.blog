@@ -5,6 +5,7 @@ date: 2019-02-05
 author: Ahmed Mansour
 published: true
 tags: ['JAMstack']
+hashtags: ['JAMstack']
 keywords: jamstack, netlify, gatsby, next, gridsome, nuxt, contentful, api, reusable, javascript, js, markup
 description: An overview of the JAMStack. What is it all about, why it is a good approach in some cases and how to choose the right tools.
 ---

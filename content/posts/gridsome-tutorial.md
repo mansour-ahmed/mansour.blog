@@ -6,6 +6,7 @@ author: Ahmed Mansour
 keywords: Vue, Gridsome,Tutorial , Blog, JAMstack, Netlify, Static.
 published: true
 tags: ['Tutorial', 'Gridsome', 'Vue', 'JAMstack']
+hashtags: ['Tutorial', 'Gridsome', 'Vue', 'JAMstack']
 description: A tutorial showing how to create a simple blog using Vue and Gridsome.
 ---
 

@@ -6,6 +6,7 @@ cover_image: ./images/steve-jobs-book.jpeg
 author: Ahmed Mansour
 published: true
 tags: ['Books', 'Steve Jobs', 'Entrepreneurship']
+hashtags: ['Books', 'SteveJobs', 'Entrepreneurship']
 keywords: steve jobs, apple, focus, book, lessons, reality distortion field, art, technology, control, A players, memento mori, entrepreneurship
 description: Reflecting on Steve Job’s biography, these are some of my takeaway lessons. I learnt more about great products, entrepreneurship and how organizations can strive.
 ---

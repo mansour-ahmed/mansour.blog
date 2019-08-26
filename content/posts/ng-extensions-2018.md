@@ -5,6 +5,7 @@ date: 2018-01-07
 author: Ahmed Mansour
 published: true
 tags: ['VS Code Extensions', 'Angular']
+hashtags: ['VSCodeExtensions', 'Angular']
 keywords: Angular, VS Code, Top, Editor, Extension, JavaScript, Ahmed Mansour, Angular5, ng, Finland, Web Developer, 2018, 2019, Best, Angular tips, Angular blog
 description: Top Angular Visual Studio Code Extensions for Angular.
 ---

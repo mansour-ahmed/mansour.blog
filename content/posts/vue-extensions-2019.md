@@ -4,6 +4,7 @@ title: 2019 Top Vue Visual Studio Code Extensions
 date: 2019-01-15
 published: true
 tags: ['Vue', 'VS Code Extensions']
+hashtags: ['Vue', 'VSCodeExtensions']
 author: Ahmed Mansour
 keywords: Vue, VS Code, Top, Editor, Extension, JavaScript, Ahmed Mansour, Web Developer, 2018, 2019, Best, Vue tips, Vue blog
 description: Top Visual Studio Code Extensions for Vue in 2019.
