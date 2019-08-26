@@ -5,7 +5,7 @@ date: 2019-12-24
 published: false
 tags: ['Entrepreneurship', 'Personal Journey']
 author: Ahmed Mansour
-cover_image: 
+cover_image: ./images/my-entrepreuenrship-experiment.jpg
 keywords: 
 description: 
 ---
@@ -20,6 +20,7 @@ The deal breaker for me was the following question:
 > When I am 80 and reflecting back on my life, which one would I regret more, trying out entrepreneurship or sticking to keeping things the way it was?
 
 So as long as I am taking a calculated risk, I should give the experiment a go.
+
 
 ## My Whys
 
@@ -102,3 +103,9 @@ The initial thought is to create an online job board where companies that are lo
 Since I am a web developer, I will be dedicating some of my time per year for freelance projects in Finland and remotely.
 
 Since building an own brand or product is a long term game, I think freelancing may smoothen the ride and allow me to pursue my other projects long term without much financial pressure.
+
+------------
+
+Credits
+
+Photo by [Danielle MacInnes](https://unsplash.com/@dsmacinnes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/entrepreneurship?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
