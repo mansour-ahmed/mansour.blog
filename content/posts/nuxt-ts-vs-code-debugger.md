@@ -13,25 +13,24 @@ description: How to debug your code through VS Code when working with nuxt & typ
 
 ## The Problem
 
-You need an easy way to debug your code through VS Code when working with nuxt & typescript.
+You need an easy way to debug your code through VS Code when working with Nuxt & Typescript.
 
 ## The Solution
 
 Utilise Chrome & VS Code to have a better debugging experience. 
 
 Add correct debugger configuration to VS Code & enable chrome debugging extension.
-Create a custom logic to animate the scroll event using Typescript
 
 ### High level steps
 
-- Add debugger configuration to VS Code.
-- Update Nuxt config to include source map files.
-- Add chrome debugging vs code extension. 
+- Add debugger configs to VS Code.
+- Update Nuxt configs to include source map files.
+- Add chrome debugging VS Code extension. 
 - Test debuggers.
 
-### VS Code Debugger Configuration
+### VS Code Debugger Configurations
 
-We will start by adding the needed debugging configurations for VS Code to understand what to do when we start our debugger.
+We will start by adding the needed debugging configurations to VS Code. This step is necessary to allow VS Code to understand what to do when we start the debugger.
 
 ```json
 // .vscode/launch.json
@@ -68,15 +67,15 @@ We will start by adding the needed debugging configurations for VS Code to under
 ```
 The JSON file simply defines 2 configurations. 
 
-**client: chrome** is the config necessary to debug any code that is run on the browser side.
+**client: chrome** is to debug any code that is going to run on the browser side.
 
-**server: nuxt** is the config necessary to debug any code that is run on the server.
+**server: nuxt** is to debug any code that is going to run on the server.
 
-Depending on the mode you are running Nuxt in, you might need either both or only the client one.
+Depending on the mode you are running Nuxt in (Universal or SPA) , you might need both configs or only the client one.
 
-The JSON configs also defines a compound command.
+The JSON also defines a compound command.
 
-**fullstack: nuxt** combines both configurations and run them in parallel.
+**fullstack: nuxt** combines both configurations and allows you to switch between configs easily without restarting the debugger.
 
 Remember to replace **{ADD_YOUR_APP_PORT_HERE}** with the port of your local development environment.
 
@@ -84,29 +83,32 @@ Remember to replace **{ADD_YOUR_APP_PORT_HERE}** with the port of your local dev
 
 For the debugger to work on the client, the source map files are needed in the browser.
 
-You can add easily the files by adding the following to your **nuxt config file**. 
+You can let Nuxt know to include the source map files by adding the following to your **nuxt config file**. 
 
 ```ts
 // nuxt.config.ts
     extend (config: any, ctx: any) {
-      // Run ESLint on save
         if (ctx.isDev) {
           config.devtool = ctx.isClient ? 'source-map' : 'inline-source-map'
         }
     }
 ```
 
+Obviously we are interested in including the source map files only when we are running nuxt in development mode.
+
 ### VS Code Chrome debugger extension
+
+For debugging on the client, we will use chrome and VS Code's debugger.
 
 From the extensions marketplace, search for **[debugger for chrome][1]**.
 
-At the time of writing this post, it was maintained by Microsoft and by far the most popular result.
+At the time of writing this post, it was maintained by Microsoft and the the extension is by far the most popular result.
 
 Install the extension and restart VS Code.
 
 ### Test the debuggers
 
-Run the VS Code debugger (Make sure that your app is running in the background). 
+Run the VS Code debugger - **Make sure that your app is running in the background**. 
 
 You should notice two options when the debugger is running.
 
