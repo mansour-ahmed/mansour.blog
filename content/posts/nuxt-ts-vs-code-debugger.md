@@ -21,7 +21,7 @@ Utilise Chrome & VS Code to have a better debugging experience.
 
 Add correct debugger configuration to VS Code & enable chrome debugging extension.
 
-### High level steps
+### High-level steps
 
 - Add debugger configs to VS Code.
 - Update Nuxt configs to include source map files.
@@ -102,7 +102,7 @@ For debugging on the client, we will use chrome and VS Code's debugger.
 
 From the extensions marketplace, search for **[debugger for chrome][1]**.
 
-At the time of writing this post, it was maintained by Microsoft and the the extension is by far the most popular result.
+At the time of writing this post, it was maintained by Microsoft and the extension is by far the most popular result.
 
 Install the extension and restart VS Code.
 
