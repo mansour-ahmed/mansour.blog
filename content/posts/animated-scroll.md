@@ -4,6 +4,7 @@ title: How to improve UX by animated scrolling using TS/JS
 date: 2019-01-16
 published: true
 tags: ['User Experience', 'Tutorial', 'Typescript']
+hashtags: ['UserExperience', 'Tutorial', 'Typescript']
 author: Ahmed Mansour
 keywords: UX, Animated scroll, Javascript, Typescript, scroll, animation
 description: Improve UX by custom animated scrolling.

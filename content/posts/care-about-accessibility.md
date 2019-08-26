@@ -4,6 +4,7 @@ title: Why You Should Care About Web Accessibility
 date: 2018-02-17
 published: true
 tags: ['Accessibility']
+hashtags: ['Accessibility']
 author: Ahmed Mansour
 keywords: web, accessibility, WCAG, User, Experience, care, social, responsibility.
 description: Why web accessibility matter to you and your product.

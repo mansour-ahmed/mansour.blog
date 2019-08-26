@@ -1,5 +1,5 @@
 <template>
-  <div class="book-container content-box">
+  <div class="book-container content-box" :id="generateSlug(book.node.title)">
     <a :href="book.node.url" target="_blank">{{ book.node.title }} By {{ book.node.author }}</a>
     <PostTags class="book-tag" :tags="book.node.tags" />
     <span class="book-heading">
@@ -17,6 +17,11 @@ import PostTags from "~/components/PostTags";
 export default {
   components: {
     PostTags
+  },
+  methods: {
+    generateSlug(bookTitle) {
+      return bookTitle.replace(/ /g, "-").toLowerCase();
+    }
   },
   props: ["book"]
 };
