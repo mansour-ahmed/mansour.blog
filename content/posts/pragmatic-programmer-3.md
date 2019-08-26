@@ -5,7 +5,7 @@ date: 2019-04-15
 author: Ahmed Mansour
 published: true
 tags: ['Software Craftsmanship']
-hashtags: ['SoftwareCraftsmanship']
+hashtags: '#SoftwareCraftsmanship'
 cover_image: ./images/pragmatic-programmer-principles.jpg
 keywords: pragmatic, programmer, craftsmanship, mentality, developer, principles, shy code, dry, testing, ask why, document your work
 description: Why spend your life developing software unless you care about doing it well? My notes about being better at my craft as a programmer.

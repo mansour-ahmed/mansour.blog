@@ -4,7 +4,7 @@ title: Why I go to hackathons and why you should consider going.
 date: 2018-01-01
 published: true
 tags: ['Opinions']
-hashtags: ['Opinions']
+hashtags: '#Opinions'
 canonical_url: false
 author: Ahmed Mansour
 keywords: hackathons, opinion, Ahmed, Mansour, Developer, Helsinki, Finland, Innovation, Creativity, Developers
