@@ -5,6 +5,7 @@ date: 2019-08-26
 published: true
 cover_image: ./images/nuxt-ts-vs-code-debugger.png
 tags: ['VS Code', 'Tutorial', 'Vue']
+hashtags: ['VSCode', 'Tutorial', 'Vue']
 author: Ahmed Mansour
 keywords: nuxt, vs code, tutorial, typescript, debugger, chrome, debugging, ts, vue, vue.js
 description: How to debug your code through VS Code when working with nuxt & typescript.
