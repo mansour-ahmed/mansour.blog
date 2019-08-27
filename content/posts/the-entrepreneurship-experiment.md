@@ -1,108 +1,130 @@
 ---
-slug: the-entrepreneurship-experiment
+slug: my-entrepreneurship-experiment
 title: My Entrepreneurship Experiment
-date: 2019-12-24
-published: false
-tags: ['Entrepreneurship', 'Personal Journey']
+date: 2019-08-27
+published: true
+tags: ['Entrepreneurship', 'My Entrepreneurship Experiment']
+hashtags: '#Entrepreneurship #MyEntrepreneurshipExperiment'
 author: Ahmed Mansour
 cover_image: ./images/my-entrepreuenrship-experiment.jpg
-keywords: 
-description: 
+keywords: entrepreneurship, quit my job, Finland, web developer, indie hacker, life-style business, make, build an own company, nordgigs, nordschool, freelancer.
+description: I quit my job and started an experiment of pursuing entrepreneurship full-time.
 ---
 
 ## I quit
 
-On August 2019, I decided to quit my full-time job to pursue entrepreneurship full-time.
+In August 2019, I quit my full-time job to pursue entrepreneurship full-time.
 
-Making the decision was not easy and definitely frightening. However, I think it is the right moment to try out this experiment.
+Making the decision was not easy and frightening. However, I think I am at a stage of my life where I can try out this experiment.
 
-The deal breaker for me was the following question:
-> When I am 80 and reflecting back on my life, which one would I regret more, trying out entrepreneurship or sticking to keeping things the way it was?
+The deal-breaker for me was the following question:
+> When I grow older and reflect on my life, which one would I regret more? 
 
-So as long as I am taking a calculated risk, I should give the experiment a go.
+> Trying out entrepreneurship or sticking to keep things the way they were?
 
+My conclusion was, as long as I am taking a calculated risk, I must give that experiment a try.
 
 ## My Whys
 
-Some of my motivations to try this entrepreneurship experiment are:
+Some of my motivations to try that entrepreneurship experiment:
 
 #### Provide Value
-<span class="highlight">Provide the highest value possible</span> to people. 
+<span class="highlight">Provide the highest value possible</span> to other people. 
 
-Entrepreneurship, as a way of living, seems to be an effective way to provide highest value to our society. My main long term goal is to be as useful as possible to the world.
+Entrepreneurship, as a way of living, seems to be an effective way to provide high value to our society. My long-term goal is to be as useful as possible to the world.
 
-#### Get out of the time selling business
+To me, entrepreneurship means tackling problems and build solutions to these problems. By tackling problems that I care about, I maximize how useful I am.
+
+#### Get out of the time-selling business
 Entrepreneurship is a potential medium for me to <span class="highlight"> sell value instead of my time.</span>
 
-A typical wealth equation for most of us: 
+A typical wealth equation for most of us is: 
 
-> Financial Reward = hourly rate x hours (value magnititude x hours)
+> Financial Reward = hourly rate x hours (value magnitude x hours)
 
 This has two limitations:
-- A hard limit on hourly rate on average (unless you are a world class performer in something).
-- Time is not scalable. Theorically you have maximum of 24 hours per day to work.
+- A hard limit on the hourly rate on average (unless I am a world-class performer in something).
+- Time is not scalable. Theoretically, I have a maximum of 24 hours per day to work.
 
-I would like to change the time-based salary model and instead remove time from the equation and maximise the value magnititude I can provide.
+I would like to change the time-based salary model and instead remove "time" from my wealth equation. I aim to maximize both the magnitude and scale of the value I can provide.
 
 I hope to move to this wealth equation instead:
 
-> Financial Reward = net profit + asset value (value magnititude x value scale)
+> Financial Reward = net profit + asset value (value magnitude x value scale)
 
 #### Flexibility 
 I would like to have a career that gives me the highest amount of <span class="highlight">flexibility in my life</span>.
 
-I would like to eventually have a business that is:
-- Location-independant.
-- 100% control over my time.
-- 100% autonomy on the tasks I work on.
+I would like to eventually have a business that:
+- Is location-independent.
+- Gives me more control over my time.
+- Gives me autonomy on the tasks I work on.
 
 #### Creativity
-Entrepeneurship can create the environment that maximise <span class="highlight">creativity and learning new skills</span> that are not necessary in my "field".
 
-Society seem to promote specialisation and for people to become specalisits. However, the world is changing quickly and being able to adapt new skills is important.  
+Society seems to promote specialization. However, the world is changing quickly and being able to acquire new skills is important.
 
-The specialisation narritive limits people's preception of what they are capable of. I personally would like to believe that I am capable of developing useful skills that migth be outside my field of software development. 
-
+Entrepreneurship can create an environment that maximizes <span class="highlight">creativity and learning new skills</span>, especially those skills that are not necessarily for my "field".
 
 ## Initial plan
 
-The common narritive (in my bubble) when it comes to entrepreneurship is that one should aim to create a startup and look for investors and grow it until they can sell their company or go IPO. 
+A common narrative (in my bubble) with entrepreneurship is that one should aim for these things:
 
-However, for me I don't think this will be the best approach. I would like to be more of a solo-preneur and invest my own resources to grow my own business.
+1. Create a startup company.
+2. Look for investors. 
+3. Hire more people and focus on growth.
+4. Wait for an acquisition offer or take the company public. 
 
-After a long thinking process I have decided to pursue 3 tracks for the beginning - Teaching, Own product, Freelancing.
+However, for me, I don't think this will be the best approach. 
+
+I would like to be more of a solopreneur (at least for now) and invest my own resources to grow my business. More like the old-school businesses that focus on being profitable and cash-flow positive.
+
+For starters, I would like to pursue 3 tracks:
+- Teach coding.
+- Develop a digital online product.
+- Freelancing as a developer.
 
 But...
 
-> Everybody have a plan until they are punched in the face. - Mike Tyson 
+> Everybody has a plan until they are punched in the face. - Mike Tyson 
 
-For now I would like to go in that direction. However, As I learn more my plan will definitely change. 
+For now, I would like to go in that direction. However, As I learn more my plan will change for sure. 
 
 #### Coding Instructor - [Nordschool](https://www.nordschool.com)
 
 Based on feedback, I tend to be a good communicator so I would like to experiment with online teaching.
 
-Combing one of my crafts as a software developer & being a communicator, I can provide some value to people.
+As a software developer and a good communicator, I can provide some value to people in the tech field.
 
-I am starting to create online technical material related to web development. 
+I am creating online technical material related to web development. 
 
-The initial thought is to create a teaching platform called [Nordschool](https://www.nordschool.com) where I can share my material in term of free & paid courses.
+The initial thought is to create a teaching platform called [Nordschool](https://www.nordschool.com) where I can share my material in terms of free & paid courses.
 
-#### Own Product - Nordgigs
+#### Digital Online Product - Nordgigs
 
-As an entrepreneur, I aim to focus my energy solving some problems I care about.
+As an entrepreneur, I aim to focus my energy on solving some problems I care about.
 
-In Finland where I live, I see more people (at least in my bubble) moving to the gig eceonomy. However, there seem to be a lack of online services that facilitate easily matching the supply & demand for freelancers.
+In Finland where I live, I see more people (at least in my bubble) moving to the gig economy. However, there seems to be a lack of online services that facilitate easily matching the supply & demand for freelancers.
 
-I am exploring this space where I might be able to provide value to other entrepreneurs. 
+I am exploring this space where potentially I could provide value to other entrepreneurs. 
 
-The initial thought is to create an online job board where companies that are looking to hire freelancers can advertise their need and entrepreuenrs can sign up and receive instant notification when something interesting shows up.
+The initial thought is to create an online job board. The service would be the place where companies that need freelancers could advertise their needs and entrepreneurs could sign up to receive a notification when something that matches their skills shows up.
 
 #### Freelancing
 
-Since I am a web developer, I will be dedicating some of my time per year for freelance projects in Finland and remotely.
+As a web developer, I will dedicate some of my time per year for freelance projects in Finland and remotely.
 
-Since building an own brand or product is a long term game, I think freelancing may smoothen the ride and allow me to pursue my other projects long term without much financial pressure.
+Building a personal brand or a product is a long-term game, I think freelancing may smoothen the ride that would allow me to pursue my other long-term projects.
+
+## Closing words
+
+I am not sure how this experiment will turn out, but I am very excited. In the worst-case scenario, I would have acquired more useful skills so it won't be that bad after-all.
+
+As part of my philosophy aiming to be as useful as possible to others. I will share regular updates about my journey for anyone interested.
+
+You can follow my progress by signing up for my [newsletter](/newsletter). 
+
+Another way to find my experiment's updates is to check this [tag](/tag/my-entrepreuenrship-experiment), all the posts related will show up there.
 
 ------------
 
