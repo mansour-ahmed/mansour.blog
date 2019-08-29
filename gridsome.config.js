@@ -97,6 +97,7 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'Book',
+        latest: true,
         feedOptions: {
           title: 'Ahmed Mansour Blog',
           feed_url: 'https://mansour.blog/rss2.xml',
@@ -108,7 +109,7 @@ module.exports = {
           url: 'https://mansour.blog/bookshelf#' +  node.title.replace(/ /g, "-").toLowerCase() ,
           author: node.author,
           date: node.dateRead,
-          categories: node.tags
+          categories: [node.hashtags]
         }),
         output: {
           dir: './static',

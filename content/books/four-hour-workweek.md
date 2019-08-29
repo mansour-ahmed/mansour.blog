@@ -5,5 +5,6 @@ dateRead: 2017-08-02
 published: true
 rating: 8
 tags: ['Entrepreneurship']
+hashtags: '#Entrepreneurship #timFerriss #4HourWorkWeek'
 url: https://www.goodreads.com/book/show/368593.The_4_Hour_Workweek
 ---
