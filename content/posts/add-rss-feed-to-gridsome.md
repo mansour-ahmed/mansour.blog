@@ -13,16 +13,17 @@ description: How to add RSS feed to a Gridsome project.
 
 ## The Problem
 
-You need an easy way to update generate an RSS feed for your Gridsome project.
+You need an easy way to generate an RSS feed for your Gridsome project.
 
 ## The Solution
 
-Utilise the [gridsome-plugin-rss](https://www.npmjs.com/package/gridsome-plugin-rss) plugin. 
+Utilize the [gridsome-plugin-rss](https://www.npmjs.com/package/gridsome-plugin-rss) plugin. 
 
 ### High-level steps
 
 - Add the plugin to your project.
 - Configure the RSS plugin.
+- Test the RSS feed.
 
 ### Add the plugin to your project
 
@@ -46,9 +47,11 @@ Now you need to add the plugin and its options to Gridsome's config file.
 
 For the debugger to work on the client, the source map files are needed in the browser.
 
-You can let Nuxt know to include the source map files by adding the following to your **nuxt config file**. 
+You can let Gridsome know to include the source map files by adding the following to your **gridsome config file**. 
 
 ```js
+// gridsome.config.js
+
   plugins: [
     {
       use: 'gridsome-plugin-rss',
@@ -81,9 +84,9 @@ You can let Nuxt know to include the source map files by adding the following to
 
 ### Test rss feed
 
-Now the RSS feed should be good to go, everytime you build your Gridsome project it will be generated inside the static directory.
+Now the RSS feed should be good to go, every time you build your Gridsome project a new RSS feed will be generated inside the **/static** directory.
 
-Lets test the rss feed.
+Let's test the rss feed.
 
 ```bash
 gridsome build
@@ -94,7 +97,7 @@ gridsome build
 gridsome develop
 ```
 
-go to your localhost + rss.xml and you should be able to see the generated RSS feed.
+Now navigate to **localhost:8080/rss.xml** and you should be able to see the generated RSS feed.
 
 That is it folks, happy coding! 👍
 
