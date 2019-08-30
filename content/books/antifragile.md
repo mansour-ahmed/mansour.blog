@@ -5,5 +5,6 @@ dateRead: 2019-04-06
 published: true
 rating: 9
 tags: ['Biography', 'Psychology', 'Economics']
+hashtags: '#biography #psychology #economics #NassimTaleb'
 url: https://www.goodreads.com/book/show/13530973-antifragile
 ---

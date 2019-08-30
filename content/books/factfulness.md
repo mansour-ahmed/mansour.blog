@@ -5,5 +5,6 @@ dateRead: 2018-11-22
 published: true
 rating: 8
 tags: ['Economics', 'History']
-url:
+hashtags: '#Economics #History #Factfulness #HansRosling'
+url: https://www.goodreads.com/book/show/34890015-factfulness
 ---

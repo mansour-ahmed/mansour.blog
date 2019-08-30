@@ -5,6 +5,7 @@ dateRead: 2016-12-12
 published: true
 rating: 10
 tags: ['Education', 'Science']
+hashtags: '#Education #Science #FluentForever #GabrielWyner'
 url: https://www.goodreads.com/book/show/19661852-fluent-forever
 ---
 

@@ -5,5 +5,6 @@ dateRead: 2019-01-21
 published: true
 rating: 9
 tags: ['Entrepreneurship']
+hashtags: '#entrepreneurship #emyth #michaelGerber'
 url: https://www.goodreads.com/book/show/81948.The_E_Myth_Revisited
 ---
