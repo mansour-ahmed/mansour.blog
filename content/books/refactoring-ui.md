@@ -1,7 +1,7 @@
 ---
 title: Refactoring UI
 author: Adam Wathan & Steve Schoger
-dateRead: 2019-05-3
+dateRead: 2019-05-03
 published: true
 rating: 10
 tags: ['Design']
