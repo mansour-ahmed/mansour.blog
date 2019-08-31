@@ -1,5 +1,13 @@
 <template>
   <div class="book-container content-box" :id="generateSlug(book.node.title)">
+    <div class="book-container__header">
+      <g-image
+        alt="Cover image"
+        v-if="book.node.cover_image"
+        class="book-container__image"
+        :src="book.node.cover_image"
+      />
+    </div>
     <a :href="book.node.url" target="_blank">{{ book.node.title }} By {{ book.node.author }}</a>
     <PostTags class="book-tag" :tags="book.node.tags" />
     <span class="book-heading">
@@ -36,9 +44,25 @@ export default {
   margin-bottom: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  .book-heading {
-    padding-bottom: .5rem;
+
+  &__header {
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &__image {
+    margin: 0 auto;
     display:block;
+    padding-bottom: 2rem;
+  }
+
+  .book-heading {
+    padding-bottom: 0.5rem;
+    display: block;
   }
 
   p {
