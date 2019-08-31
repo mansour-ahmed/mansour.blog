@@ -20,6 +20,7 @@
         author
         title
         rating
+        cover_image (width: 400, blur: 10)
         dateRead (format: "MMMM YYYY")
         content
         tags {
