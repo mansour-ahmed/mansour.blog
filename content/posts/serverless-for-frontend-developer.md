@@ -130,4 +130,4 @@ I am working on producing video tutorials that explain in more detail how you ca
 If you are interested and would like to hear from me when these tutorials are published, sign up for my [newsletter](/newsletter) or follow me on [twitter](https://twitter.com/AhmedMansour03/).
 
 P.S:
-If you are interested in freelance projects in Finland, make sure you subscribe to [Nordgigs](http://nordgigs.com) newsletter.
+If you are interested in freelance projects in Finland, make sure you subscribe to [Nordgigs newsletter](http://nordgigs.com).
