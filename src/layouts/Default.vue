@@ -3,7 +3,7 @@
     <v-app :dark="darkTheme">
       <Header :darkTheme="darkTheme" />
       <main class="main">
-        <NewsletterShortForm class="upper-form" v-if="showUpperNewsletter" />
+        <!-- <NewsletterShortForm class="upper-form" v-if="showUpperNewsletter" /> -->
         <slot />
         <NewsletterShortForm v-if="showLowerNewsletter" />
       </main>
