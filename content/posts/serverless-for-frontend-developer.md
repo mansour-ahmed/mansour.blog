@@ -1,21 +1,21 @@
 ---
-slug: serverless-for-frontend-developers
-title: Serverless for frontend developers
+slug: example-architecture-of-a-serverless-web-application
+title: Example Architecture Of A Serverless Web Application
 date: 2019-09-11
 published: true
 cover_image: ./images/Serverless-For-Frontend-Developers.png
-tags: []
-hashtags: ''
+tags: ["Serverless" , "JAMstack", "Vue"]
+hashtags: '#serverless #JAMstack #nuxt #vue #netlify #faunaDB'
 author: Ahmed Mansour
-keywords:
-description:
+keywords: serverless, jamstack, netlify, faunadb, nuxt, vue, frontend developers, scalable infratstructure, netlify functions, sendgrid, zapier, mailchimp, fullstack, development, with serverless, serverless web apps, web, applications
+description: An example of a serverless architecture I worked on during building the initial version of Nordgigs.
 ---
 
 ## Introduction
 
 Building web application backends can be challenging for frontend-focused developers. That is where the serverless web application paradigm comes in handy. Developers can leverage the serverless paradigm to create scalable backend systems easily.
 
-In this post, I will share with you how as a frontend developer I have manage to leverage the serverless paradigm & [JAMstack](/jamstack-what-why-and-how) principles to build one of my projects.
+In this post, I will share with you how I have manage to leverage the serverless paradigm & [JAMstack](/jamstack-what-why-and-how) principles to build one of my projects.
 
 The basic idea of a serverless architecture is to abstract away the servers and instead focus on consuming resources through APIs. Such an architecture takes away the responsibility of maintaining databases and backend web servers to the vendors instead of you my dear developer.
 
