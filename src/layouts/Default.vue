@@ -27,9 +27,6 @@ import Header from "~/components/header/Header.vue";
 
 export default {
   name: "Layout",
-  props: {
-    showLogo: { default: true }
-  },
   components: {
     Header,
     Footer,
