@@ -30,6 +30,7 @@ params:
     tocopen: false
     showFullTextinRSS: true
     disableSpecial1stPost: true
+    disableScrollToTop: true
 
     # home-info mode
     homeInfoParams:
