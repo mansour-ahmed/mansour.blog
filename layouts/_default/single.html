@@ -53,6 +53,8 @@
     {{- end }}
   </footer>
 
+  {{ partial "newsletter.html" }} 
+
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
