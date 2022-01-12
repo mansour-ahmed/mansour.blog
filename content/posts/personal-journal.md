@@ -20,7 +20,7 @@ Things get much clearer when they are written down. A journal can be your whiteb
 
 ### Starting
 
-As with any new habit, start small. Once you started, continue until it becomes second nature to you. Only then you can develop the habit further. Don’t expect to deadlift 200 kilos on the first day of the gym.
+As with any new habit, [start small](/mvh). Once you started, continue until it becomes second nature to you. Only then you can develop the habit further. Don’t expect to deadlift 200 kilos on the first day of the gym.
 
 Decide how you would like to journal. Ask yourself; what is the smallest routine that you could stick to? Can you stick to it regardless of what life is throwing at you? How often should your practice be?
 
