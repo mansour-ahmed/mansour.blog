@@ -51,7 +51,7 @@ When starting, it can be helpful to have a **minimum viable habit**.
 
 Besides your perfect day plan, find a backup plan. That backup plan will be the absolute minimum routine that you can get away with. 
 
-Take working out as an example. Spouse, you decide your minimum is to be lifting weights for 20-30mins twice a week. 
+Take working out as an example. Spouse, you decide your minimum is to be lifting weights for 20-30 mins twice a week. 
 
 Once you hit your minimums, you can decide whether to continue or stop. **It is ok** not to have the time or the energy to do your perfect day. Your minimum viable habit is enough to **keep the momentum going**.
 
