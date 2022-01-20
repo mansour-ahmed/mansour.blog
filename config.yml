@@ -35,7 +35,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: I am Ahmed. A programmer living in Finland. This blog is home to my thoughts about things that I find interesting. Reach out at hello@mansour.blog
+        Content: I am Ahmed, a programmer living in Finland. This blog is home to my thoughts about things that I find interesting. Reach out at hello@mansour.blog
     socialIcons:
         - name: twitter
           url: "https://twitter.com/ahmaman_"
