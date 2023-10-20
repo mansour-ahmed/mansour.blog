@@ -37,7 +37,7 @@
   </div>
   {{- end }}
 
-  <footer class="post-footer">
+  <div class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
@@ -45,16 +45,21 @@
       {{- end }}
     </ul>
     {{- end }}
+    <br />
+    <p>
+      P.S: Looking for a full-stack developer for your project? Check out my <a style="box-shadow: 0 1px;" href="/work-with-me">work with me page</a>
+    </p>
+
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
-  </footer>
+  </div>
 
   {{- if not (.Param "hideMeta") }}
-    {{ partial "newsletter.html" }} 
+    {{ partial "newsletter.html" }}
   {{- end }}
 
   {{- if (.Param "comments") }}

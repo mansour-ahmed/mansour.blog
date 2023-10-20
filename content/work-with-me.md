@@ -1,22 +1,30 @@
 ---
-title: "let's collaborate"
+title: "Let's collaborate"
 showtoc: false
 hideMeta: true
 showBreadCrumbs: false
 hideTitle: true
 ---
-Need a software developer for your project? I can help!
+**From Idea to Implementation: Crafting Code that Delivers.**
 
-I am an experienced software developer who can help you deliver the digital solutions your customers deserve. When we work together, I make sure we build high-performance web apps that offer a delightful experience to your users.
+About me:
 
-I enjoy team collaboration but can work independently. As a developer, I care about my craft, so expect clean, maintainable code following the industry best practices.
+- Freelance fullstack developer with 8 years of professional experience building web applications.
 
-Some of the technologies I am comfortable working with:
-* React
-* Node
-* Typescript
-* Azure
-* Contentful
-* PostgreSQL
+- Experience with multiple mid-sized Elixir & Phoenix projects; also deep knowledge of the React & Node ecosystem with large projects.
 
-Currently, I'm working full-time on a project until May 2022. Maybe afterwards we can collaborate? Let's talk! 👉🏽  projects@mansour.blog
+- Comfortable working with: Elixir, Phoenix, React/Next, Typescript, Node, Postgres, Contentful, & Azure.
+
+- Enjoy working across the entire stack: from business needs to user experience, architecture, implementation, operations, and maintenance.
+
+- Experience leading dev teams but also enjoy the sole contributor role. Happy to coach junior developers.
+
+- Knows what it takes to build long-lived software and will advocate for code quality and maintainability.
+
+- Based in Finland; available for remote work within the EU. Fluent in English, Finnish, and Arabic.
+
+- Available for contracts up to 40 hours per week.
+
+**Let's Collaborate**
+
+Considering a project? Let's discuss more! Reach out at projects@mansour.blog
